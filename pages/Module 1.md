@@ -1,0 +1,57 @@
+- *Internet - the ubiquitous network*
+  - Ubiquitous means everywhere
+  - Only two ubiquitous networks are : telecommunication network and internet network.
+    - Telecommunication uses SS#7 protocol
+    - Internet uses TCP/IP protocol
+  - Packet switched networks like internet can tolerate some delays while real time communication is better provided by telecommunication networks.
+  - Network can be divided into three main segments :
+    - Core
+      - It is the backbone of the network
+      - Innermost part of the network
+      - Core looks at traffic from a bit stream point of view
+      - Primary function : deliver traffic efficiently at the least cost.
+      - Deals with transmission media and transfer points
+    - Edge
+      - Deals with the distribution of the traffic.
+      - Edge looks at traffic from a service point of view.
+      - Managed and owned by ISP's.
+    - Access
+      - Deals with the devices and how they will access the trafic.
+      - Can be either wired or wireless. From a MC standpoint, it is wireless.
+  - Internet is the preferred bearer network for content that can tolerate some delays. (Here bearer implies the thing that will carry the content, i.e internet)
+  - Internet supports many protocols.
+  - For ubiquitous access, web applications are preferred.
+  - Web applications use HTTP and have a request/response model.
+  - Difference between web application and convectional client/server paradigm
+    - In convectional client server paradigm the client handles some business logic.
+    - While in web application the clients only handle the rendering functions. This is handled by the web browsers. Thin clients that don't handle business logic.
+- *Architecture for mobile computing *
+  - Mobile computing uses a three tier architecture
+    - ![image.png](C:/Other Stuff/logseq/college/assets/image_1621765464921_0.png)
+    - The three tiers are :
+      - Presentation or User Interface Tier
+        - Deals with device handling and rendering
+        - Include user system interface where user services reside. (user services are sessions, text input, dialog and display management)
+      - Process Management or Application Tier
+        - For application programs or process management
+        - business logic and rules are executed here.
+        - controls transactions and asynchronous queuing to ensure reliable connection.
+        - Capable of accommodating hundreds of users.
+      - Database Management or Data Tier
+        - Used for database access and management
+    - Three tier architecture
+      id:: 60aa2f25-1ecf-4bba-abcd-69e75bc29f5f
+      - is better suited for an effective client-server design
+      - It provides increased _performance_, _flexibility_, _maintainability_, _reusability_ and _scalability_ .
+      - hides complexity of distributed processing from the user
+    - The above reasons have made the three tier architecture the choice for internet applications and net centric information systems.
+- *Three Tier Architecture*
+  - Designing a system for mobile computing means that the system will be used through any network, bearer, agent and device
+  - Why it is necessary for mobile computing to have three tier architecture ?
+    - ((60aa2f25-1ecf-4bba-abcd-69e75bc29f5f))
+  - Why is it necessary for mobile computing to use internet?
+    collapsed:: true
+    - A system for mobile computing should be able to be accessed through any network, bearer, device and agent.
+    - To have universal access, it is desirable for the server to be connected to a ubiquitous network like the internet.
+  - *Presentation (Tier 1)*
+    -
