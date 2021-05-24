@@ -1,9 +1,41 @@
+- [[SEPM Module 1]]
 - *Process Framework Model*
   - ![image.png](C:/Other Stuff/logseq/college/assets/image_1621793520803_0.png)
     id:: 60aa9ae7-e308-4487-93a4-ecc52f5972e9
-  -
   - (Taken from pressman textbook and module 2 studoob pdf)
 - *Capability Maturity Model (CMM)*
-  - l
 - *Requirements Engineering*
-  - l
+  - Requirements
+    - descriptions of what the systems should do
+    - services that it provides and the constraints on its operation
+    - reflect the needs of the customers
+  - The process of finding out, analysing, documenting and checking the services and constraints of a system is called requirements engineering.
+  - Types of Requirements
+    - User requirements
+      - high level abstract requirements
+      - statements in natural language
+      - services the system is expected to provide to system users
+      - and constraints under which it must operate
+    - System requirements
+      - detailed description of what the systems should do
+      - system software's functions, services and operational constraints
+    - Functional requirements
+      - statements of service the system should provide
+      - how the system should react to particular inputs
+      - how the system should behave in particular situations
+    - Non Functional requirements
+      - constraints on the services and functions offered by the system. eg : time constraints, constraints on the development process and constraints imposed on standards.
+      - apply to the system as a whole rather than individual system services
+  - Requirements engineering activities result in
+    - the specification of the software's operational characteristics (function, data and behaviour),
+    - indicate software's interface with other system elements and,
+    - establish constraints that the software must meet.
+  - (Taken from Module 2 studoob pdf)
+- *Requirement Analysis*
+  - It is a SE task that bridges the gap between system level requirements engineering and software design.
+  - Requirements analysis allows the software engineer to
+    - refine the software allocation and,
+    - refine the build models of the data,
+    - refine the functional, and behavioural domains that will be treated by the software.
+  - Requirements analysis allow the software engineer to represent information, function and behaviour in a way that it can be easily translated into data, architectural, interface and component level designs.
+  - (Taken from Module 2 studoob pdf)

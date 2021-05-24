@@ -1,3 +1,4 @@
+- [[SEPM Module 2]]
 - Legend
   - (?) - doubt
 - *Introduction to Software Engineering*
@@ -46,8 +47,8 @@
     - Acceptability
   - (notes of above section from Module 1 Studoob pdf & Module 1 pdf from miss)
 - *Scopes of Software Engineering*
+  collapsed:: true
   - Historic Aspects
-    collapsed:: true
     - Numerous study's show that software is often :
       - delivered late
       - incomplete
@@ -56,14 +57,12 @@
     - To compact these the software engineer has to acquire a broad range of skills
     - Both technical and managerial skills are need to be applied to every step of the software production process.
   - Economic Aspects
-    collapsed:: true
     - Applying economic principles to SE requires the client to choose techniques that reduce long term costs in economic sense
     - Introducing a new technology in an organization :
       - training cost
       - learning curve
       - initial unproductivity and inability to productive work while learning
   - Maintenance aspects
-    collapsed:: true
     - Classical view of maintenance
       - Development then maintenance model
       - This model is unrealistic due to
@@ -74,23 +73,20 @@
       - maintenance occurs when a fault is fixed or when the requirements change irrespective of whether this takes place after or before installation.
     - When I brought the computer, certain softwares came with it in CD. Those softwares are an example of classical maintenance. They won't receive updates.
   - Requirements analysis and design aspects
-    collapsed:: true
     - The earlier we correct a fault the better. As time goes on, the cost of correcting a mistake increases.
     - If a mistake is made in the requirements, then it will show up in the specifications then design and then code. Thus we will need to correct the code if we wait till the coding phase to find that fault.
     - It is important to check for new problems when we apply changes.
     - In case of such faults, the correct product must be delivered and reinstalled. Right now updates to our favourite apps are an example of this.
   - Team development aspects
-    collapsed:: true
     - Team development leads to
       - difficulties in merging different code components written by different people on the team.
       - It also leads to communication problems among the team members.
 - *Software Engineering as a Layered Technology*
+  collapsed:: true
   - The layers are :
     - A Quality Focus
-      collapsed:: true
       - The bedrock that supports SE is a quality focus.
     - Process
-      collapsed:: true
       - The foundation of the SE is the process layer.
       - SE process is the glue that holds the technology layers together and enables rational and timely development of computer software.
       - *SE Process* : Sequence of activities that leads to the production of software product.
@@ -99,7 +95,6 @@
         Process defines a framework for a set of key process areas (KPAs) [PAU93] that must be established for effective delivery of software engineering technology. The key process areas form the basis for management control of software projects and establish the context in which technical methods are applied, work products (models, documents, data, reports, forms, etc.) are produced, milestones are established, quality is ensured, and change is properly managed.
         #+END_QUOTE
     - Methods
-      collapsed:: true
       - SE Methods provide the technical how-to's for building a software.
       - It includes the array of tasks for creating a software like :
         - analysis
@@ -107,8 +102,7 @@
         - program construction
         - testing
         - support
-    - Tools 
-      collapsed:: true
+    - Tools
       - SE Tools provide automated or semi-automated support for the process and the methods.
       - A system where tools are integrated such that the information created by one tool can be used by another tool such that they support the software development is called _Computer Aided Software Engineering (CASE)_.
   - (Taken from Pressman textbook pg.  20)
@@ -198,7 +192,6 @@
       - Cons
         - Only helpful for larger projects
     - Spiral Model
-      collapsed:: true
       - Software development process whose diagrammatic representation appears like a spiral with many loops
       - Each loop represents a phase of the software process.
         - Innermost loop is the Feasibility Study
@@ -207,18 +200,14 @@
       - Each loop is split into four sectors (quadrants)
         - ![image.png](../assets/image_1621790756402_0.png)
         - Quadrant 1 : Determine Objectives, alternatives and constraints
-          collapsed:: true
           - Identify objectives
           - Examine the risk associated with these objectives
         - Quadrant 2 : Identify and resolve risks
-          collapsed:: true
           - Detailed analysis of each identified project risk is carried out
           - steps to reduce the risks are taken
         - Quadrant 3 : Development and Testing
-          collapsed:: true
           - Develop and validate the product
         - Quadrant 4 : Planning
-          collapsed:: true
           - Project is reviewed and decision on whether to continue with further loop is decided.
           - If it is decided to continue, plans for next phase of the project is drawn.
       - Spiral model called the meta model since it encompasses all other life cycle models.
