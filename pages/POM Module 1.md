@@ -1,0 +1,47 @@
+- Syllabus
+  - Introduction to Management: definitions, managerial roles and functions; Science or Art perspectives- External environment-global, innovative and entrepreneurial perspectives of Management (3 Hrs.)– Managing people and organizations in the context of New Era- Managing for competitive advantage -the Challenges of Management (3 Hrs.)
+- *Introduction to management*
+  - *Definitions*
+    - According to Harold Koontz, Management is the art of getting things done through and with the people in formally organized groups.
+    - According to Dalton E McFarland Management is defined for conceptual, theoretical, and analytical purposes as that process by which managers create, direct, maintain, and operate purposive organization through systematic, coordinated, co-operative human effort.
+  - *Managerial Roles*
+    - Mintzberg's Managerial roles
+      - Managerial roles refers to the specific actions or behaviours expected and exhibited by a manager.
+      - Interpersonal roles
+        - These are the roles that involve people
+        - and other duties that are ceremonial and symbolic in nature.
+        - The interpersonal roles are
+          - Figure Head - responsible for staffing, training and associated duties
+          - Leader - the symbolic head of the organization
+          - Liaison - maintains the communication between all contacts and informers that compose the organizational network.
+      - Informational roles
+        - These roles involve collecting, receiving and disseminating information.
+        - Roles are
+          - Monitor - personally seek and receive information to be able to understand the organization
+          - Disseminator - transmits all import information received from outsiders to the members of the organization.
+          - Spokesperson - transmits the organization plans, policies and actions to outsiders.
+      - Decisional roles
+        - Involve making decisions or choices
+        - Roles are
+          - Entrepreneur - seeks opportunity.  They search for change, respond to it and exploit it.
+          - Disturbance handler - responsible for corrective action when the organization faces disturbances
+          - resource allocator - makes or approves all significant decision related to the allocation of resources
+          - negotiator - represents the organization at major negotiations.
+  - *Functions*
+    - Planning
+      - Basic function of management
+      - deals with finding out the future course of action
+      - deciding in advance the appropriate course of actions for achievement of predetermined goals.
+      - it is an exercise in problem solving and decision making
+    - Organizing
+      - Process of bringing together physical, financial and human resources and developing productive relationship amongst them for achieving goals
+      - involves determining and providing human and non human resources to organisational structure.
+      - organization involves
+        - identification of activities
+        - classification of grouping activities
+        - assignment of duties
+        - delegation of authority and creation of responsibility
+        - coordinating authority and responsibility relationships
+    - Staffing
+    - Directing
+    - Controlling
