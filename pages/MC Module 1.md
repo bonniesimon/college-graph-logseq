@@ -54,4 +54,53 @@
     - A system for mobile computing should be able to be accessed through any network, bearer, device and agent.
     - To have universal access, it is desirable for the server to be connected to a ubiquitous network like the internet.
   - *Presentation (Tier 1)*
-    -
+    - It is a user facing system of the tiers.
+    - Presentation layer is responsible for presenting information to the user
+    - It is responsible for rendering the information into a screen.
+    - Consists of agent applications and systems that run on client devices and offer all the user interfaces.
+    - The agent software in the client device can be a browser and in some cases an applet running on a browser or a virtual machine.
+    - Functions performed by agent software range from simple tasks like accessing other application through HTTP API, to sophisticated task like real time scales or inventory management.
+    - Some agents work as web scrapers.
+  - *Application(Tier 2)*
+    - Application layer is the engine of a ubiquitous application
+    - It performs business logic of processing user input, obtaining data and making decisions
+    - In some cases, this layer will do transcoding of data for appropriate rendering in the presentation layer
+    - This tier include technologies like CGI's, JAVA, JSP, .NET, PHP, etc.
+    - The application layer is presentation and database independent.
+    - In addition to business logic, the application layer performs some other functions like
+      - decisions on rendering, network management, security, datastore access, etc.
+    - Most of these functions are implemented using middleware software
+    - *Middleware framework* is defined as a layer of software in-between the operating system and the user facing software.
+    - Middlewares include a wide range of software systems like
+      - distributed objects and components
+      - message oriented communication
+      - database connectors
+      - transaction drivers
+    - Middleware can be considered as a software gateway connecting two independent open objects.
+    - Categories of middleware are
+      - *Message oriented middlewares(MOM)*
+        - Middleware framework that connects different applications through asynchronous exchange of messages
+        - it works over a networked environment without knowing the platform or processor the other application is resident on. It simple passes the messages.
+        - MOM is generally synchronous, peer-to-peer and works in a publish/subscribe  fashion.
+        - However MOM also supports request/response message passing too.
+        - MOM is appropriate for event driven applications
+      - *Transaction Processing (TP) Middlewares*
+        - TP middleware provides tools and an environment for developing transaction based distributed applications.
+        - An idea TP system would
+          - input data into the system at the point of information source
+          - output of system at the point of information sink.
+        - Functions of TP
+          - maps numerous clients requests through application service routines to different application tasks
+          - numerous management features like restarting failed processes
+          - dynamic load balancing
+          - ensuring consistency of distributed data
+        - TP optimizes the use of resources by multiplexing many client functions to much smaller set of application service routines. This helps in reducing the response time.
+        - TP is used in
+          - data management
+          - network access
+          - security systems
+          - delivery order processing
+          - airline reservations
+          - customer service
+        - TP is capable of providing services to thousands of clients in a distributed client/server environment.
+        - Java uses MVC which is an example of a TP system.

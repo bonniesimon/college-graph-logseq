@@ -57,7 +57,6 @@
     - Response
       - General form of HTTP response
         - Status line
-          collapsed:: true
           - meaning of status codes
             - 1 - Informational
             - 2 - Success
