@@ -1,0 +1,31 @@
+- [[MC Module 1]]
+- Syllabus
+  - Spread spectrum – Direct sequence, Frequency hoping.
+  - Medium Access Control - SDMA, FDMA, TDMA, CDMA,
+  - Cellular concepts- channel assignment strategy- hand off strategy interface and system capacity- improving coverage and capacity in cellular system,
+  - Satellite Systems-GEO, LEO, MEO.
+  - Wireless Communication Systems- Telecommunication Systems- GSM- GSM services & features, architecture -DECT features & characteristics, architecture.
+- *Spread Spectrum*
+  - (Refer John Shiller MC text)
+  - spread spectrum is the technique of spreading the band-width need to transmit data
+  - Advantages
+    - Resistance to narrowband interference
+    - power level of the spread signal much lower without losing data
+  - Can also be used to reduce narrowband interference for several channels, not just single channel
+  - Between each frequency band, a guard space is needed to avoid adjacent channel interference
+  - To sperate different channels, CDM is used instead of FDM.
+  - Spreading of signal is done using a special code
+  - this code is required at the receivers end to recover the signal at that channel
+  - each channel has a different code used to spread it
+  - without the code the signal appears to be background noise.
+  - Disadvantages
+    - Increased complexity at the receivers end to recover the signal
+    - large frequency band needed due to spreading the signal
+  - SS can be achieved in different ways:
+    - *Direct Sequence Spread Spectrum*
+      - DSSS systems take user bit stream and perform an XOR with a chipping sequence
+      - Chipping sequence is a pseudo random generated number.
+      - spreading factor s = tb / tc
+      - ![image.png](C:/Other Stuff/logseq/college/assets/image_1622036846881_0.png)
+      - Wireless LAN's use barker code. When implemented with DSSS, barker codes exhibit good robustness against interference and insensitivity to multi-path propagation
+      - DSSS receiving and transmitting (study from text)

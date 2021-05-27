@@ -1,3 +1,11 @@
+- [[MC Module 2]]
+- Syllabus
+  - Introduction to mobile computing,
+  - Middleware and Gateways,
+  - Application and services,
+  - Internet-Ubiquitous networks,
+  - Architecture and three-tier architecture for Mobile Computing,
+  - Design consideration for Mobile Computing.
 - *Internet - the ubiquitous network*
   - Ubiquitous means everywhere
   - Only two ubiquitous networks are : telecommunication network and internet network.
@@ -104,3 +112,41 @@
           - customer service
         - TP is capable of providing services to thousands of clients in a distributed client/server environment.
         - Java uses MVC which is an example of a TP system.
+      - *Communication Middleware*
+        - Communication Middleware is used to connect one application to another.
+        - eg : connecting one application to another using telnet
+        - they are quite useful in the telecommunication world.
+      - *Distributed Object and Components*
+        - CORBA is an example
+      - *Transcoding Middleware*
+        - Transcoding middleware is used to transcode one format of data to another to meet the need of the client
+        - html converted to wml to access website in mobile phone supporting WAP.
+        - Transcoding is used for content adaption to fit the need of the device.
+        - Content adaption is required to meet the network bandwidth needs.
+        - content adaption done through Internet Content Adaption Protocol(ICAP)
+        - *Internet Content Adaption Protocol(ICAP)*
+          - It is a protocol aimed at providing simple object based content vectoring for HTTP services
+          - So in simple terms it takes the content and converts it into a form that can be displayed on the client device.
+          - Content might be intended for desktop users. So it needs to be converted so that it can be used by mobile users.
+        - *Web Services*
+  - *Data(Tier 3)*
+    - Data tier is used to store data needed by the application and acts as a repository for both temporary and permanent data.
+    - Data can be stored in any from of datastore or database.
+    - relational databases, legacy hierarchical databases, to even simple text files.
+    - *Database middleware*
+      - we discussed how business logic should be separate from presentation. Similarly business logic should be independent of database
+      - database independence helps in the maintenance of the system better.
+      - Database middleware runs between the application program and the database. These are sometimes called database connectors.
+    - SyncML
+      - SyncML protocol is an emerging standard for synchronization of data access from different nodes.
+- *Design Considerations for Mobile Computing*
+  - Context means all the information that helps determine the state of an object.
+  - Mobile computing environment should be context independent and context sensitive
+  - Since the users and devices of a mobile communication are constantly changing,
+  - we need to adapt the content or behaviour to better suit this context.
+  - Context data helps use the apply the above.
+  - There are many ways by which content and behaviour can be adapted
+    - Content with context awareness
+    - Content switch on context
+    - Content transcoding on context
+- (everything taken from M1 textbook and miss's pdf)
