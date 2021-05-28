@@ -35,3 +35,16 @@
 			- View assigned task a challenging and fulfilling
 			- Able to solve problems imaginatively and creatively
 ## Systems Approach to Management
+	- ![image.png](C:/Other Stuff/logseq/college/assets/image_1622196124120_0.png)
+	- A system is a set of interrelated and interdependent parts arranged in a manner that produces a unified whole.
+	- A whole system is a combination of subsystems.
+	- And all these subsystems are related to each other.
+	- For example, a business firm is a system that may be its sub-systems are finance department, management department, selling department, production department, accounting department, etc
+	- Components of Systems Theory
+		- Goal Oriented
+		- Subsystem
+		- Synergy
+		- System Boundaries
+		- Open and Closed system
+		- Flow
+		- Feedback
