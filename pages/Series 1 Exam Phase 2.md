@@ -1,0 +1,37 @@
+## McGregor's Theory of X and Y
+	- Douglas Murray McGregor
+		- was an American management professor at the MIT Sloan School of Management and president of Antioch College from 1948 to 1954.
+		- He also taught at the Indian Institute of Management Calcutta.
+		- His 1960 book The Human Side of Enterprise had a profound influence on education practices.
+	- Why McGregor's Theory?
+		- It is based on the idea that the manager's attitude has an impact on employee motivation.
+		- McGregor proposed two theories by which managers perceive and address employee motivation : Theory X(Authoritarian) and Theory Y(Participative)
+		- These are two opposing motivational methods of management.
+		- If you think that your team members do not like their work and have a lack of interest and/or motivation, then, according to McGregor theory, you are required to use the Authoritarian (Theory X) style of management. This theory is very common and includes micromanaging people’s work to make sure that it is done properly.
+		- Alternatively, if you think that your team members are taking pride in their work and see it as a challenge, then; you must adopt the Participative style of management. Managers following this approach trust their people to take responsibility and accountability of their work to make sure that it is properly followed.
+	- Theory X
+		- Managers accept that the team members dislike their work and are naturally unmotivated.
+		- So they need to bee rewarded, prompted or punished constantly in order to complete their tasks.
+		- Organizations, where works are managed by following McGregor Theory X, can be repetitive, and team members are often motivated by the “carrot and stick” method.
+		- Remuneration and performance appraisals generally depend on the performance of the team members/workers.
+		- Under Theory X the assumptions taken about team members are that they -
+			- Dislike their work
+			- Need constant direction and avoid responsibility
+			- Needs to be threatened, forced, and controlled in completing and delivering work
+			- Are required to be supervised continuously
+			- Have no ambition, no incentive to work
+		- An organization following Theory X needs to have several tiers of supervisors and managers.
+		- Even though management following Theory X approach has fallen heavily out of fashion in recent years, large organizations find that taking it into action is unavoidable because of a total number of people employed and due to short deadlines that they are required to meet.
+	- Theory Y
+		- Managers have a positive and optimistic opinion of workers.
+		- Under Theory Y, managers take a participative style of management.
+		- Appraisals and reviews are regular but, unlike the organisations following McGregor Theory X, they support open communication instead of control staff.
+		- The organisations following the Theory Y approach provide frequent promotion opportunities to the employee
+		- Under Theory Y, the assumptions about team members are that they are
+			- Likely to work on their proposal and plan
+			- Involved in decision-making
+			- Self-motivated
+			- Taking accountability and responsibility for their work
+			- View assigned task a challenging and fulfilling
+			- Able to solve problems imaginatively and creatively
+## Systems Approach to Management
