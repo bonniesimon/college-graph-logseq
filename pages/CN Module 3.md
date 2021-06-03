@@ -1,0 +1,22 @@
+## Routing
+	- Main function of network layer is routing packets from source machine to the destination machine.
+	- The algorithms that choose the routes and the data structures that they use are a major area of network layer design.
+	- Routing Algorithm is that part of the network layer responsible for deciding which output line an incoming packet should be transmitted on.
+	- Routing Vs Forwarding
+		- Router has two process in it : one is forwarding and the other routing.
+		- Forwarding : to select an output port based on destination address and routing table
+		- Routing : process by which routing table is built. It is responsible for filling and updating routing tables. That is where routing algorithm comes into play.
+	- Forwarding Table
+		- Used for forwarding a packet.
+		- So must contain enough information to accomplish that function
+		- A row in forwarding table contains : mapping from network number to an outgoing interface and some mac information, such as Ethernet address of the next hop.
+	- Routing Table
+		- Built by the routing algorithm as a precursor to building the forwarding table.
+		- Generally contains mappings from network numbers to next hops
+	- Network as a Graph
+		- The basic problem of routing is to find the lowest cost path between any two nodes. Where the cost of a path is the sum of the costs of all the edges that make up the path.
+		- For a simple network, we can calculate all the shortest paths and load them into a storage on each node.
+		- Disadvantages:
+			- Does not account for node failures
+			- Does not account for addition of new nodes.
+			- Edges costs cannot change, not flexible.

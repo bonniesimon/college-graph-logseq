@@ -1,0 +1,5 @@
+- Bridges, switches, routers, hub, repeaters, gateway
+	- https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/
+- Data rate, throughput, bandwidth
+	- [Throughput and bandwidth defined](https://eng.libretexts.org/Bookshelves/Computer_Science/Book%3A_An_Introduction_to_Computer_Networks_(Dordal)/01%3A_An_Overview_of_Networks/1.02%3A_Data_Rate_Throughput_and_Bandwidth)
+	- [Data rate is defined properly](https://networkengineering.stackexchange.com/questions/39235/bandwidth-vs-throughput-vs-databit-rate)

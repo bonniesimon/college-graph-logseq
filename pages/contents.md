@@ -1,5 +1,14 @@
 - What's **Contents**?
-    - It's a normal page called [[Contents]], you can use it for:
-    - 1. table of content/index/MOC
-    - 2. pinning/bookmarking favorites pages/blocks (e.g. [[Logseq]])
-    - 3. You can also put many different things, depending on your personal workflow.
+	- It's a normal page called [[Contents]], you can use it for:
+	- 1. table of content/index/MOC
+	- 2. pinning/bookmarking favorites pages/blocks (e.g. [[Logseq]])
+	-
+	  3. You can also put many different things, depending on your personal workflow.
+- Semester 6
+	- [[CS306 Computer Networks]]
+	- [[CS308 Software Engineering & Project Management]]
+	- [[CS332 Microprocessor Lab]]
+	- [[CS334 Network Programming Lab]]
+	- [[CS364 Mobile Computing]]
+	- [[CS368 Web Technologies]]
+	- [[HS300 Principles of Management]]

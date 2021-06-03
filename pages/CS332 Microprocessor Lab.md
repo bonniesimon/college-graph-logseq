@@ -1,0 +1,6 @@
+- [Repo with ASM programs](https://github.com/jacobjohn2016/8086-Programs)
+- [Repo Having Code for matrix addition](https://github.com/kingspp/8086-MicroProcessor)
+- [Repo having code for decimal to hex](https://github.com/rajmehta18/8086programming)
+- [[Print a string in 8086]]
+- [[Print a number under 10 in 8086]]
+- [[Exp 11 : Check for substring in a string]]
