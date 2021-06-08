@@ -12,3 +12,5 @@
 	- [[CS364 Mobile Computing]]
 	- [[CS368 Web Technologies]]
 	- [[HS300 Principles of Management]]
+- [[Final Year Project]]
+- [[Seminar Final Year]]

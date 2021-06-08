@@ -1,0 +1,5 @@
+- [Guideline for seminar](file:///C:/Other%20Stuff/Study%20Materials/Semester%206/Seminar%20Final%20Year/Seminar%20Guidelines.pdf)
+- [How to prepare an abstract](file:///C:/Other%20Stuff/Study%20Materials/Semester%206/Seminar%20Final%20Year/How%20to%20prepare%20abstract%20for%20seminar.pdf)
+- I'm gonna choose DP-3T
+- DP-3T
+	- [Research Paper on DP-3T](https://arxiv.org/abs/2005.12273)

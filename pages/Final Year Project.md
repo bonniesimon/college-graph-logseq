@@ -1,0 +1,3 @@
+- Ideas
+	- Travelling salesman problem using quantum computing
+	- DP-T3
