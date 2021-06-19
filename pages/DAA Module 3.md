@@ -1,0 +1,2 @@
+- Strongly Connected components
+	- learned from this [video](https://youtu.be/RpgcYiky7uw)

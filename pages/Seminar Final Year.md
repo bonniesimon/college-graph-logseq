@@ -3,3 +3,7 @@
 - I'm gonna choose DP-3T
 - DP-3T
 	- [Research Paper on DP-3T](https://arxiv.org/abs/2005.12273)
+- https://ieeexplore.ieee.org/document/9252092/references#references
+- http://sites.computer.org/debull/A20june/p36.pdf
+- https://scholar.google.com/scholar?as_q=Decentralized+privacy-preserving+proximity+tracing&as_occt=title&hl=en&as_sdt=0%2C31
+- https://ui.adsabs.harvard.edu/abs/2020arXiv200512273T/abstract

@@ -5,6 +5,7 @@
 	-
 	  3. You can also put many different things, depending on your personal workflow.
 - Semester 6
+	- [[CS302 Design and Analysis of Algorithms]]
 	- [[CS306 Computer Networks]]
 	- [[CS308 Software Engineering & Project Management]]
 	- [[CS332 Microprocessor Lab]]
@@ -12,5 +13,6 @@
 	- [[CS364 Mobile Computing]]
 	- [[CS368 Web Technologies]]
 	- [[HS300 Principles of Management]]
+	- [[TnP]]
 - [[Final Year Project]]
 - [[Seminar Final Year]]

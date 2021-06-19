@@ -1,3 +1,16 @@
+## Syllabus
+	- Network layer – Routing – Shortest path routing, Flooding, Distance Vector Routing, Link State Routing, RIP, OSPF, Routing for mobile hosts
+## Network Layer
+	- Lowest layer that deals with end to end transmission.
+	- It is concerned with getting packets from the source all the way to the destination
+	- Getting to the destination may require it to make many hops between intermediate routers along the way.
+	- Network layer must know about the topology of the communication subset and choose appropriate paths.
+	- It should choose routes to
+		- avoid overloading some communication lines and routers
+		- while leaving some idle.
+	- Problems arise when the source and destination are in different networks.
+## Network Layer Design Issues
+	- ??
 ## Routing
 	- Main function of network layer is routing packets from source machine to the destination machine.
 	- The algorithms that choose the routes and the data structures that they use are a major area of network layer design.
@@ -13,10 +26,80 @@
 	- Routing Table
 		- Built by the routing algorithm as a precursor to building the forwarding table.
 		- Generally contains mappings from network numbers to next hops
-	- Network as a Graph
-		- The basic problem of routing is to find the lowest cost path between any two nodes. Where the cost of a path is the sum of the costs of all the edges that make up the path.
-		- For a simple network, we can calculate all the shortest paths and load them into a storage on each node.
-		- Disadvantages:
-			- Does not account for node failures
-			- Does not account for addition of new nodes.
-			- Edges costs cannot change, not flexible.
+## Network as a Graph
+	- The basic problem of routing is to find the lowest cost path between any two nodes. Where the cost of a path is the sum of the costs of all the edges that make up the path.
+	- For a simple network, we can calculate all the shortest paths and load them into a non volatile storage on each node.
+	- Disadvantages:
+		- Does not account for node failures
+		- Does not account for addition of new nodes.
+		- Edges costs cannot change, not flexible.
+	- Solution
+		- Need a distributed and dynamic protocol
+		- Two main classes of such protocols are
+			- Distance vector routing
+			- Link state routing
+## Distance Vector Routing
+	- Each node constructs a one dimensional array (a vector)
+		- containing the "distances" (costs) to all other nodes and
+		- distributes that vector to its immediate neighbours.
+	- Assumptions we make are :
+		- Each node know the cost of the link to each of its directly connected neighbours.
+		- A link that is down is assigned an infinite cost.
+	- The distance vector routing algorithms is also called the Bellman-Ford Algorithm.
+	- [check the pdf by miss]
+	- Every T seconds each router sends its table to its neighbours
+		- each router then update its table based on the new information.
+	- Disadvantage:
+		- ?? Fast response to good news and slow response to bad news
+		- Too many messages to update.
+	- ?? understand why the following solution is required.
+	- One technique to improve the time to stabilize routing is called *split horizon*
+		- When a node sends its routing update to its neighbour, it does not send the routes that it learned from that neighbour, back to that neighbour.
+		- If B has route (E, 2, A), then it must have learned it from A. So when B sends a routing update to A, it does not send the route (E, 2) in that update.
+	- Another version is *split horizon with poison reverse*
+		- B actually sends back route to A, but it puts negative information in the route to ensure that A won't use B to get to E.
+	- ### Routing Information Protocol (RIP)
+		- RIP is a routing protocol built on the distance vector algorithm.
+		- Routing protocols in internetworks work differently
+			- Instead of advertising the cost of reaching each node, it advertises the cost of reaching each network.
+## Link State Routing
+	- It is the second major class of intradomain routing protocols.
+	- Basic idea : Send to all the nodes (not just the neighbours) information about directly connected links (not the entire routing table).
+		- Every node knows how to reach its directly connected neighbour.
+		- If every node in the network has such information
+		- then every node will have enough knowledge of the network to build a complete map of the network.
+	- So Link State Routing depends on two things :
+		- reliable dissemination of link state information
+		- and calculation of routes from the sum of all the accumulated link state knowledge.
+	- LSP has two phases
+		- ### Reliable Flooding
+			- Flooding is the process of each node sending its link state information out to its directly connected links;
+				- each node that receives this information then forwards it out on all of its links
+				- This process continues until the information has reached all the nodes in the network.
+			- Each nodes creates an update packet also called the *link state packet (LSP)* with the following information
+				- Id of the node that created the LSP
+				- List of directly connected neighbours of that node and cost to each
+				- Sequence number
+				- Time to live for this packet
+			- Out of the four
+				- first two : need to enable route calculation
+				- last two : used to make the flooding of packets to all nodes reliable.
+			- Making flooding reliable means to make sure that each node has the most recent copy of lsp information.
+			- One important design goals of links state protocol's flooding mechanism is that
+				- the newest information mush be flooded to all nodes as quickly as possible,
+				- while old information must be removed from the network and not allowed to circulate.
+		- ### Route Calculation
+			- Once a given node has a copy of LSP from every other node, it is able to compute a complete map for the topology of the network, and from this map it is able to decide the best route to each destination.
+			- How the route is calculted?
+				- using Dijkstra's Algorithm
+			- [Dijkstra's Algorithm]
+			- Each switch, from the LSP's it has collected, computes its routing table using a realization of Dijkstra's algorithm called the forward search algorithm.
+			- Each switch maintains two lists : *Tentative* and *Confirmed*.
+			- Each of these list contains a set of entries of the form *(Destination, Cost, NextHop)*
+			- [Forward Search Algorithm]
+	- Advantage of Link State Algorithm
+		- it has been proven to stabilize quickly,
+		- it does not generate much traffic
+		- it responds rapidly to topology changes or node failures
+	- Disadvantage
+		- amount of information stored at each node is quite large
