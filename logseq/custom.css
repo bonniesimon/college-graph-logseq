@@ -202,6 +202,10 @@ html.is-electron.is-mac .cp__header {
 #main-content-container {
   padding: 1rem 2.5rem;
 }
+
+#main-content-container i{
+  color: cyan;
+}
 #main-content-container .journal .flex-row.foldable-title {
   margin-left: 10px;
 }

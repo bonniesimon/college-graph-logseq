@@ -1,0 +1,82 @@
+- [[SEPM Module 4]]
+# Syllabus
+	- Planning phase – project planning objective, software scope, empirical estimation models- COCOMO, single variable model, staffing and personal planning. Design phase – design process, principles, concepts, effective modular design, top down, bottom up strategies, stepwise refinement
+# Empirical Estimation Models
+	- Size Estimation
+		- Estimation of size is a critical and difficult part of project planning.
+		- Difficulties lie in the fact that software is essentially an abstract.
+		- **Lines of Code (LOC)**
+			- A LOC is any line of program that is not a comment or blank line, regardless of the number of statements or fragments of statements on the line.
+		- **Function Count**
+			- It measures functionality from the users point of view.
+			- It deals with the functionality being delivered and not the lines of code.
+			- It is independent on the technology used to deliver functions.
+	- Coast Estimation
+		- Approximate judgement of the costs for a project. It should be done throughout the entire life cycle.
+		- Why we need cost estimation?
+			- To determine how much effort and time the software project needs.
+			- Important for making good management decisions
+			- It facilitates competitive bids.
+			- It affects the planning and budgeting of the project.
+	- Three main approaches to estimation
+		- Empirical Techniques
+			- An educated guess based on past experience
+		- Heuristic Techniques
+			- The characteristics to be estimated are expressed in terms of a mathematical expression.
+		- Analytical Techniques
+			- derive the required results starting from simple assumptions
+	- Cost Estimation Models
+		- Estimation is the process of finding an estimate or approximation, which is a value that can be used for some purpose even if the input data is incomplete, uncertain or unstable.
+		- Estimation determines how much money, effort, resources and time it will take to build a specific system or product.
+		- Estimation Models use derived formulas to predict effort as a function of LOC.
+		- In these models, the software project is represented in terms of effort required to develop it successfully.
+		- Cost Estimation Models classified into two models
+			- Algorithmic Models
+				- Estimations in these models are based on mathematical equations which are based on historic data or thoery
+				- Types are :
+					- COCOMO
+					- COCOMO II
+					- Software Equation
+			- Non Algorithmic Models
+				- Estimation on these models depends on the prior experience and domain knowledge of project managers.
+				- They do not use mathematical equations rather use expert judgement or estimation by analogy, etc.
+	- Empirical Estimation Model
+		- The structure of empirical estimation models is a formula,
+			- derived from data collected from past projects
+			- that uses software size to estimate effort. Effort itself is an estimate described either as LOC or FC.
+		- No estimation model is appropriate for all development environments, development processes or application types.
+		  Models must be customized based on data from the particular environment.
+			- E = a + b (S) c
+			- E : Effort (in person months). Amount of labor that will be required to complete the task, measured in person-months units.
+			- S : size in LOC or FC.
+			- a, b, c : values derived from the project environment
+	- Static, Single variable models
+		- This model use an equation to estimate the desired values such as cost, time, effort, etc.
+		- C = a L ^b
+			- C : cost
+			- L : size in lines of code in thousand lines
+			- a, b : constants
+		- E = 1.4 L ^ 0.93
+			- E : effort in person-months
+		- DOC = 30.4 L ^ 0.90
+		- D = 4.6 L 0.26
+	- COCOMO Model
+		- It is a single variable software cost estimation model developed by Barry Boehm.
+		- It uses basic regression formula with parameters that are derived from historical project data and current project characteristics.
+		- Divides software product development into 3 categories:
+			- Organic : Relatively small groups, working to develop well understood applications
+			- Semidetached : Project team consists of a mixture of experienced and inexperienced staff.
+			- Embedded : The software is strongly coupled with complex hardware and real time systems.
+		- COCOMO is applied to
+			- Organic Mode
+			- Semidetached Mode
+			- Embedded Mode
+		- For the 3 categories, for size estimation (in KLOC), Boehm provides equations to predict
+			- project duration in months
+			- effort in programmer-months
+		- KLOC : size measured in term of thousand delivered lines of code
+		- Software cost estimation done through three stages:
+			- Basic COCOMO
+			- Intermediate COCOMO
+			- Complete COCOMO
+			-

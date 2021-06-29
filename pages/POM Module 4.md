@@ -1,0 +1,131 @@
+# Syllabus
+	- Organising for decision making: Nature of organizing, organization levels and span of control in management Organisational design and structure –departmentation, line and staff concepts (3 Hrs.) Limitations of decision making- Evaluation and selecting from alternatives- programmed and non programmed decisions - decision under certainty, uncertainty and risk-creative process and innovation (3 Hrs.)
+# Nature of Organizing
+	- An organization will be most effective, when the people know their roles to play and the way in which their goals are related to one another.
+	- Designing and maintaining such systems of roles managerial functions of organizing.
+	- In management, organize represents all those activities that result in the formal assignment of task, authority and responsibility to groups and individuals.
+	- Organizing involves:
+		- Classification of work
+		- Designing of different work units
+		- Assigning different tasks.
+		- Establishing co-ordination and relationship amongst the different units and positions.
+# Organizing Process
+	- 1 Review of strategic and operational plans
+	- 2 Determination of the activities to be performed to implement the plans
+	- 3 creation of job
+	- 4 departmentation
+	- 5 Organization Structure
+	- 6 Determination of Authority
+	- Organization involves two or more people with ideas and resources, working together in a structured, formal environment to achieve a common goal.
+	- It is a social and managerial system with a clearly defined boundary, which pursues collective goal through planning, hiring the human resource, directing their effort and controlling the performance.
+- Steps in Organizing
+	- // To complete
+# Organization levels or hierarchy and span of control
+	- The purpose of organizing is to make human cooperative effective.
+	- The reason for having levels of organization are due to the limitations of span of management.
+		- There is a limit to the number of persons a manager can supervise effectively.
+	- The number of subordinates reporting to a give manager is called the *span of control* or *span of management.*
+		- The number of people and departments that directly report to a particular manager.
+		- When more people are there under the control of one manager, it is a wide span of control
+		- less means a narrow span of control.
+	- Once work is divided and department is created, then span of control is chosen.
+	- Hierarchy
+		- A pattern of multiple levels of an organization structure
+			- at the top of which is the senior ranking manager responsible for the operations of the entire organization
+			- and lower ranking managers are located at various levels of the organization.
+	- Factors affecting span of control
+		- Capacity of superiors
+		- Capacity of subordinates
+		- Nature of work
+		- Degree of decetralization
+		- Degree of planning
+		- Communication technique
+		- Use of staff assistance
+		- Supervision from others
+	- Narrow Span of Management
+		- A single manager or supervisor oversees few subordinates.
+		- This gives rise to a tall organizational structure.
+		- Advantages
+			- There is a close supervisory control because of the low span of managers.
+			- It is more authorised structure
+			- It enhances the control of the top regulatory over the organization
+		- Disadvantages
+			- Employees are less motivated within this structure
+			- Verdict making is slow
+			- Creates communication barriers between upper and lower management
+			- Less benefit and rewards are given to the body in the tall organization.
+	- Wide span of management
+		- A single manager or supervisor oversees a large number of subordinates.
+		- This give rise to a flat organizational structure.
+		- Advantages
+			- It is less costly
+			- Quick decisions can be made
+			- Communication is fast and clear.
+			- Subordinates are free from close and strict supervision and control
+			- Superior may not be dominant due to the large number of subordinates
+		- Disadvantages
+			- Weaker control over subordinates because of many are under one manager
+			- The discipline in the organization will not be under control
+			- Relation between subordinate and superior may not be healthy.
+			- Organization may not be in a position to maintain quality and performance.
+# Organizational Structure
+	- An organization is social unit of individuals that is designed and managed to achieve collective goals.
+	- Every organization has its own management structure that
+		- defines and governs the relationships between various employees,
+		- the tasks they perform,
+		- and the roles, responsibilities and authority provided to carry out different tasks.
+	- An organizational structure defines how the activities such as task allocation, coordination and supervision are directed towards the achievement of organizational goals.
+	- Organizational structure
+		- defines manner in which roles, power, authority and responsibilities are assigned and governed
+		- and depicts how information flows between the different levels of hierarchy in an organization.
+	- Designing an organization structure depends on the objectives, and the strategy it adopts to achieve those objectives.
+	- Organizational chart is a visual representation of this vertical structure.
+	- The structure of an organization should clearly determine the reporting relationships and the flow of authority as this will support good communication - resulting in efficient and effective work process flow.
+	- Organizational structure is chosen based on the following factors
+		- The size of the organization
+		- Nature of business
+		- The objective and the business strategy to achieve them
+		- The organization environment
+	- ## Basic Organizational Designs
+		- **Functional Organization**
+			- Based on an occupational specialization
+			- Eg : Finance, manufacturing, marketing, account, research, etc.
+			- It leads to efficiency and economy.
+		- **Divisional Organization**
+			- The whole organization is divided into different divisions
+			- each division is relatively autonomous
+			- They operate as self contained business units.
+			- Division are totally unrelated but work under the single corporate umbrella.
+			- A central headquarter focuses on all the divisions.
+		- **Matrix Organization**
+			- Utilises both the functional and divisional chains of command simultaneously
+			- Assigns specialists from different functional units to work together on a project as a cross functional team.
+			- The team is led by a project manager.
+			- Project managers have the authority geared towards achieving the organizational goals
+			- Functional managers have the authority over tasks related to their department.
+		- Strategic business unit (SBU)
+		- Virtual Organization
+# Departmentation
+	- Departmentation is the foundation of organization struture.
+	- Departmentation means division of work into smaller units and their regrouping into bigger units on the basis of similarity of features.
+	- Each department is headed by a person known as departmental manager.
+	- Division of work into departments leads to specialization as people of one department perform activities related to that department only.
+	- Types
+		- Departmentation by Function
+			- It is the grouping of activities on the basis of similarities of functions.
+			- **Functional Organization Structure**
+				- Most common model found in most organizations.
+				- Organizations with such structure are divided into smaller groups based on specialized functional areas such as operations, finance, marketing, human resource, IT, etc.
+				- The organizations top management team consists of several functional heads.
+				- Communication occurs within each department and is communicated across departments through the department heads.
+				- This structure provides greater operational efficiency.
+				- It allows increased specialization.
+				- Advantages
+					- Logical reflection of functions
+					- Maintains power and prestige of major fucntions
+					- Follows principle of occupational specialization
+					- Simplifies training.
+				- Disadvantages
+					- De-emphasizes overall company objectives
+					- Overspecializes and narrow view points of key personnel
+					- Reduces coordination between functions

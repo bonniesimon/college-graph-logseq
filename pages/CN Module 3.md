@@ -1,5 +1,8 @@
+- [[CN Module 4]]
 ## Syllabus
 	- Network layer – Routing – Shortest path routing, Flooding, Distance Vector Routing, Link State Routing, RIP, OSPF, Routing for mobile hosts
+## Doubts
+	- Should we learn about all the fields in the OSPF header format and Type 1 link state advertisement.
 ## Network Layer
 	- Lowest layer that deals with end to end transmission.
 	- It is concerned with getting packets from the source all the way to the destination
@@ -72,7 +75,7 @@
 		- reliable dissemination of link state information
 		- and calculation of routes from the sum of all the accumulated link state knowledge.
 	- LSP has two phases
-		- ### Reliable Flooding
+		- ### > Reliable Flooding
 			- Flooding is the process of each node sending its link state information out to its directly connected links;
 				- each node that receives this information then forwards it out on all of its links
 				- This process continues until the information has reached all the nodes in the network.
@@ -88,7 +91,7 @@
 			- One important design goals of links state protocol's flooding mechanism is that
 				- the newest information mush be flooded to all nodes as quickly as possible,
 				- while old information must be removed from the network and not allowed to circulate.
-		- ### Route Calculation
+		- ### > Route Calculation
 			- Once a given node has a copy of LSP from every other node, it is able to compute a complete map for the topology of the network, and from this map it is able to decide the best route to each destination.
 			- How the route is calculted?
 				- using Dijkstra's Algorithm
@@ -103,3 +106,55 @@
 		- it responds rapidly to topology changes or node failures
 	- Disadvantage
 		- amount of information stored at each node is quite large
+	- ### Open Shortest Path First Protocol (OSPF)
+		- It is a widely used Link-state routing protocol
+		- OSPF adds quite a number of features to the basic link state routing
+			- Authentication for routing messages
+			- Additional hierarchy
+			- Load balancing
+		- OSPF Header Format
+			- ![image.png](../assets/image_1624073458985_0.png)
+			- version field → 2
+			- Type field → values 1 to 5
+			- Source address
+			- Areald → 32 bit id of the area in which node is
+			  located
+			- Entire packet except authentication is protected by
+			- 16 bit checksum
+			- Auth type –
+				- 0,no auth
+				- 1, simple pwd
+				- 2, cryptographic auth checksum
+		- The basic building block of link state messages in OSPF is the link state advertisement (LSA)
+		- 1 message may contain many LSA's
+		- Type 1 LSA's : Advertise cost of links between routers
+		- Type 2 LSA's : Advertise networks to which the advertising router is connected
+		- [LSA format]
+## Routing for Mobile Hosts
+	- Hosts that never move are called sationary
+	- **Migratory Hosts**
+		- They are basically stationary hosts who move from one fixed site to another from time to time, but use the network only when physically connected to it.
+	- **Roaming Hosts**
+		- They compute on run and want to maintain connections while on the move
+	- **Mobile Hosts**
+		- Either of the two latter categories (migratory or roaming)
+		- all hosts that are away from home but still want to be connected.
+	- Hosts have a permanent address that can be used to determine their home loccations
+	- The goal of routing in such systems with mobile hosts is to
+		- make it possible to send packets to the home addresses (permanent addresses) and still have the packets efficiently reach them wherever they may be.
+	- World is divided up (geographically) into small units called *areas*, where an areas is a LAN or wireless cell
+	- Each area has
+		- Foreign agent (one or more) which are processes that keep track of all the mobile hosts visiting that area.
+		- Home agent, which keeps track of hosts whose home is in the area, but who are currently visiting another area.
+	- **Registration Process**
+		- Periodically each foreign agent broadcasts a packet announcing its existence and address
+		- A newly arrived mobile host waits for such messages. If none arrives quickly enough, the mobile host broadcasts a packet.
+		- The mobile host registers with the foreign agent,
+			- giving its home address,
+			- current data link layer address and
+			- some security information
+		- Foreign agent contacts the mobile host's home agent
+			- it also includes the security information to convince the home agent that the mobile host is really there.
+		- Home agent examines the security information which contains timestamp, to prove that it was generated seconds ago, and sends acknowledgment.
+		- On receiving acknowledgment from the home agent of the mobile host, the foreign agent make an entry in its table and inform the mobile host that it is now registered.
+		- [The home agent does two things]
