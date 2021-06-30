@@ -1,3 +1,5 @@
+- [Repo having ASM programs in the format we did it MIT](https://github.com/mitcse/CSE-Labs/tree/master/MP%20Lab)
+- [repo has programs in our format, check out reverse string program](https://github.com/apsrcreatix/8086/blob/master/REVERSE_OF_STRING.asm)
 - [Repo with ASM programs](https://github.com/jacobjohn2016/8086-Programs)
 - [Repo Having Code for matrix addition](https://github.com/kingspp/8086-MicroProcessor)
 - [Repo having code for decimal to hex](https://github.com/rajmehta18/8086programming)
@@ -5,8 +7,10 @@
 - [[Print a string in 8086]]
 - [[Print a number under 10 in 8086]]
 - [[Exp 11 : Check for substring in a string]]
+- [Inputing and outputing hexadecimal](https://getassemblycode.blogspot.com/2017/08/assembly-hexadecimal-input-output-add.html)
 - Exp 12
 	- [what hex values mean](http://www.nha.dk/hex.html)
+- [[MP Lab Exp 15]]
 - Correct Programs
 	- 12 - EXP12
 	- 13 - HEXTOBCD
@@ -40,5 +44,26 @@
       MOV AL, [SI]
       INC SI
   CODE ENDS
+  ```
+-
+  ```assembly
+  LEA DI, NUM 
+  ```
+- Above code means that DI point to NUM.
+-
+  ```assembly
+  ;reading from keyboard into ascii form
+  MOV AH, 01
+  INT 21H
+  
+  ;writing to screen in ascii form
+  MOV AH, 01
+  INT 21H
+  ```
+- For above, value will be in AL register
+-
+  ```
+  ;setting BX to 0
+  XOR BX, BX
   ```
 -

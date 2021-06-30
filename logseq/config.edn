@@ -73,4 +73,5 @@
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
  :macros {}
  :feature/enable-journals? false
- :default-home {:page "Contents"}}
+ :default-home {:page "Contents"}
+ :markdown/version 2}
