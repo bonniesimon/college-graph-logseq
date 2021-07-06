@@ -1,0 +1,4 @@
+- Question choosed
+	- [q1](https://practice.geeksforgeeks.org/problems/product-array-puzzle4525/1)
+	- [q2](https://practice.geeksforgeeks.org/problems/jump-game/1/)
+	- [q3](https://practice.geeksforgeeks.org/problems/maximum-value-of-difference-of-a-pair-of-elements-and-their-index/1/)

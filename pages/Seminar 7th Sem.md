@@ -1,8 +1,9 @@
 - [Guideline for seminar](file:///C:/Other%20Stuff/Study%20Materials/Semester%206/Seminar%20Final%20Year/Seminar%20Guidelines.pdf)
 - [How to prepare an abstract](file:///C:/Other%20Stuff/Study%20Materials/Semester%206/Seminar%20Final%20Year/How%20to%20prepare%20abstract%20for%20seminar.pdf)
 - I'm gonna choose DP-3T
-- DP-3T
+- [[DP-3T]]
 	- [Research Paper on DP-3T](https://arxiv.org/abs/2005.12273)
+	- [DP3T All Research Documents](https://github.com/DP-3T/documents/blob/master/Security%20analysis/Privacy%20and%20Security%20Attacks%20on%20Digital%20Proximity%20Tracing%20Systems.pdf)
 - https://ieeexplore.ieee.org/document/9252092/references#references
 - http://sites.computer.org/debull/A20june/p36.pdf
 - https://scholar.google.com/scholar?as_q=Decentralized+privacy-preserving+proximity+tracing&as_occt=title&hl=en&as_sdt=0%2C31

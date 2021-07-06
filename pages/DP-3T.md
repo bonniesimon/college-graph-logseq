@@ -1,0 +1,48 @@
+- Legend
+	- ? : words or concepts I've doubt in.
+		- ?this_word means idk what the work means
+		- ? this is a sentence and a half. means that its a whole sentence that idk about.
+- Executive Summary
+	- DP-3T is a system for secure and privacy-preserving proximity tracking at large scale.
+	- DP-3T provides a technological foundation to help slow the spread of SARS-CoV 2.
+	- It achieve this by simply accelerating the process of notifying people who might have been exposed to the virus so that they can take appropriate measures to break its transmission chain.
+	- Implementing such a system so that privacy and security are respected is of importance today.
+- Context and Need
+	- TTIQ - Testing, contact Tracing, Isolation and Quarantine
+	- The cornerstone of TTIQ technique is contact tracing.
+	- It identifies people who have had contact with the patient and possibly have covid.
+	- 2-3 days before the onset of symptoms, that is the period where half of the overall transmission occurs
+	- Manual tracing relies on Interviews conducted by trained personnel.
+		- Time consuming
+		- Require workers
+		- Interview response based on memory of the affected person, would not be reliable.
+- Purpose
+	- Alerts you when you've come near contact of a affected person.
+	- Doesn't reveal the identity of the contacted person.
+- DP3T
+	- Three different protocols are specified to support different tradeoff's between exposure detection and tracing.
+	- Developers can choose the tradeoff they want while using a common framework.
+	- Working
+		- Each phone locally generates a frequently changing ephemeral identifier (EphIDs)
+		- These EphIDs are then broadcasted via Bluetooth Low Energy (BLE) ?beacons.
+			- BLE is a low power wireless communication technology that can be used over a short distance to enable smart devices to communicate.
+			- BLE is a relatively new technology with a focus on low energy.
+		- Other phones observe these beacons and store them with a time indication and measurements to estimate exposure.
+		- When a patient is diagnosed with Covid-19, they will be authorized by health authorities to publish a protocol specific representation of their EphIDs
+		- When authorized, users can instruct their phones to upload a representation of the EphIDs to the backend.
+		- The backend stores the uploaded representations. To protect the patients from network observers, all phones generate dummy traffic to provide plausible deniability of real uploads.
+		- Other phones periodically query the backend for information and reconstruct the corresponding EphIDs of the positive users locally.
+		- If the phone has recorded the beacon corresponding to any reported EphIDs, then the phone's user might have been exposed to the virus.
+		- The phone uses exposure measurements of the matched beacons to estimate the exposure of the phone's owner.
+	- Architecture
+		- The proximity tracing process is supported by a backend server.
+		- The backend server distributes anonymous exposure information to the app running on each phone.
+		- Backend server trusted to not add information nor remove information.
+		- Backend solely acts as a communication platform and doesn't process any information.
+		- Purpose of this is so that even if the server is compromised or seized, their privacy remain intact.
+	- The three protocols are :
+		- Low-cost decentralized proximity tracing
+		- Unlinkable decentralized proximity tracing
+		- Hybrid decentralized proximity tracing
+- Low-cost decentralized proximity tracing
+	-
