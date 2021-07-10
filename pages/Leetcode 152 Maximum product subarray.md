@@ -1,0 +1,11 @@
+- [Problem Statement](https://leetcode.com/problems/maximum-product-subarray/)
+- [Explains the logic with code better](https://www.youtube.com/watch?v=lXVy6YWFcRM)
+- [Explains logic better with cpp code](https://youtu.be/hJ_Uy2DzE08)
+- Logic
+  collapsed:: true
+	- currMax stores the maximum value till now. `currMax = max(a[i], a[i] * currMax, a[i]*currMin)`
+	- we do `a[i]*currMin` because if a[i] is a negative number, then multiplying it with the smallest number i.e currMin (negative number with max magnitude) then we'll get the largest product.
+	- [2, 3, -2, 4, -1]
+		- on reaching 4, currMax = 4 and currMin = -48
+		- so when taking -1, currMax = a[i] * currMin
+			- i.e (-1)*currMin

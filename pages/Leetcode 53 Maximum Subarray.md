@@ -1,0 +1,6 @@
+- [Problem Statement](https://leetcode.com/problems/maximum-subarray/)
+- [Explanation why we use the algorithm](https://www.youtube.com/watch?v=hPWJNoaI7t8)
+	- We reset the sum to 0 everytime since, the maximum sum won't start with a negative number
+- [Better explanation for even all negative arrays](https://youtu.be/w_KEocd__20)
+- What I learned
+	- Kadane's algorithm

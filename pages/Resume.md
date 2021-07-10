@@ -10,3 +10,97 @@
 		- NetX Technical Team and Core team member
 		- DSC MACE Co-lead Web
 		- IEEE SB Student Member
+	- Talks
+		- Web D workshop Meraki
+		- C Language workshop NetX
+		- Linux Class for Webbed
+		- Git & Github for NetX
+- Sections of Resume
+	- Skills
+	  collapsed:: true
+		- OS
+		  collapsed:: false
+			- Windows Subsystem for Linux
+			- Windows
+		- Languages
+			- Javascript (Strong)
+			- Python (Fair)
+			- C / C++ (Strong)
+			- Java (Fair)
+			- Nodejs
+			- CSS (Strong)
+		- Frameworks
+			- React
+			- Nextjs
+			- Fastify
+			- Express
+			- Sass
+			- Flutter
+			- React Native
+		- Databases
+			- MySQL
+			- PostgreSQL
+			- MongoDB
+		- Text Editor
+			- Vim
+			- VScode
+			- Nano
+		- Design
+			- Figma
+			- Adobe XD
+			- Canva
+		- Dev Tools
+			- Git
+			- NPM
+			- Yarn
+	- Societies
+	  collapsed:: false
+		- IEEE SB Student member
+		- NetX Web Master
+		- DSC MACE Web Co-Lead
+	- Awards and Achievments
+	  collapsed:: false
+		- IEEE Xtreme 2020 | Global Rank 812 | National Rank 128
+		- IEEE Xtreme 2019 | Global Rank 1266
+		- Code Flip 3rd Place
+	- Experience
+	  collapsed:: false
+		- Agrivator | React Developer Intern | Remote | Feb 2020 - Oct 2020
+			- Used React to develop an inventory app which enabled the admins to easily manage the products.
+			- Led a team of frontend developers
+			- I mainly worked on implementing the auth.
+			- Formatted
+				- Coordinated a team of frontend developers to develop a Inventory app for internal use.
+				- The web app facilitated the admins to better manage the inventory and thus reducing extra man hour required to maintain the inventory manually.
+				- Programmed a Modern UI using React and implemented Auth by consuming the backend API.
+				- Collaborated with multiple teams; Product team, design team, backend team.
+		- Takshak Online | Web Head | Remote | Oct 202 - Feb 2021
+			- Led the Takshak Online Web Team. Created a total of more than 4 websites.
+			- The websites developed lead to an increased exposure for the event, reaching a total hit rate of above 10k.
+			- Websites were developed using modern frontend technology.
+			- Formatted:
+				- Spearheaded a team of 8 as the Web head of Takshak Online.
+				- Designed and developed a total of 4 websites including the Official Takshak Online website.
+				- The websites in total accumulated over 15k hits resulting in increased exposure to the virtual event.
+				- Modern UI design built using Figma were coded using HTML, CSS along with Javascript libraries.
+		- Shopee Bee | Freelance React Developer | Remote | June 2021
+			- Worked on fixing production bugs and thus enabling the website to be released on time.
+			- Formatted:
+				- Solved production bugs after debugging the code for an online ecommerce platform, ShopeeBee. Resulted in the platform being able to launch on time.
+				- Communicated with the original programmer and worked to fix the software specific bugs.
+				- Implemented new logic to eliminated a particular bug which lead to increased reliability of the data submitted by users.
+		- Canvas | Freelance React Developer | Remote | June 2021
+			- Worked on the landing page of Canvas, which is to be the first impression of Canvas users.
+			- Formatted:
+				- Communicated with stakeholders on progress update, collected suggestions and developed the landing page of Canvas, a blockchain based content monetization platform.
+				- Build using React along with external libraries for complex UI components
+				- Developed in 57% less time to enable the stakeholders to launch their product on due.
+		- IC MACE | Frontend Developer | MACE Kothamangalam | Nov 2019 - March 2020
+			- Developed a website for an international conference
+		- X-Culture
+	- Side Projects
+	  collapsed:: false
+		- Corona Info
+		- Popify
+		- PreviewMark
+		- Code Eyes
