@@ -1,3 +1,11 @@
 - [[POM Module 1]]
 - [[POM Module 4]]
 - [[Series 1 Exam Phase 2]]
+- Tips for exam
+	- Bulleted points
+	- Draw figures and diagrams
+	- Use examples
+	- If you don't know, simply write. Attempt all questions even if you don't know all
+		- If you don't know the answer to a question, then don't use bullet point
+		- use paragraphs
+		- use examples

@@ -1,0 +1,98 @@
+- Types of operating systems
+	- Batch Operating system
+	- Multiprogramming operating system
+		- Processor keeps a queue of the waiting processes. It assigns one program/process the cpu time, if this process needs to wait for another operation like I/O, then cpu selects another process from the job queue and assigns it to the CPU.
+	- Multitasking OS
+		- Here we use the concepts of multiprogramming OS along with CPU scheduling to perform quick switches between jobs.
+	- Time Sharing OS
+		- Each task gets a certain amount of CPU time to execute. This time is called quantum. Once the time interval is passed, the OS switches to another task.
+	- Real Time OS
+		- Built to perform specific tasks within deadlines.
+- Threads
+	- Thread is a lightweight process and forms the basic unit of CPU utilization
+	- A process can perform more than one task at the same time by including multiple threads.
+	- A thread has its own program counter, register set and stack
+	- A thread shares resources with other threads of the same process the code section, the data section, files and signals
+	- A new thread or child process of a given process can be introduced using fork() system call.
+	- User threads and Kernel threads
+		- User threads are managed by the user
+		- Kernel Threads are managed by the OS.
+	- Many to One thread model
+		- Many user threads mapped to a single kernel thread.
+		- If one blocking system call occurs then the whole process is blocked.
+		- Since there is only one kernel thread to handle the system call.
+	- One to One model
+		- Creating one kernel thread for each user thread is inefficient and creating kernel threads can cause overhead.
+	- Many to many model
+		- This model deals with the throwbacks of the previous two methods
+		- If a blocking system call is made, then we make use of another kernel thread.
+- Process
+	- A process is a program in execution.
+	- Each process is represented by a Process Control Block (PCB)
+- Process Scheduling
+	- Arrival Time - Time at which the process arrives in the ready queue
+	- Completion time - Time at which process completes its execution
+	- Burst time  - Time required by a process for CPU execution
+	- Turn around time  - Time difference between completion time and arrival time
+	- Waiting time - Time difference between turn around time and burst time.
+	- Why do we need scheduling?
+		- To make better use of CPU, to not keep the CPU idle.
+		- In uniprogramming systems, when one process waits for I/O, the CPU is idle.
+		- In multiprogramming systems, when one process waits for I/O, another process can use the CPU.
+		- This is possible only using process scheduling.
+	- Objectives of Process scheduling algorithm
+		- Max CPU utilization
+		- Fair allocation of CPU
+		- Max throughput (Number of processes that complete their execution on per time unit)
+		- Min turnaround time
+		- Min waiting time
+		- Min response time
+	- Scheduling Algorithms
+		- First Come First Serve (FCFS)
+			- Simplest algorithm
+			- schedules based on arrival time
+			- implemented using a FIFO queue
+			- it is a non preemptive scheduling algorithm
+			- It suffers from convoy effect.
+				- the whole OS slows down due to a few slow processes
+		- Shortest Job First
+			- Schedules based on the shortest burst time.
+		- Longest Job First (LJF)
+			- Process having longest burst time is given priority
+			- Non preemptive in nature
+		- Shortest Remaining Time First (SRTF)
+			- Preemptive mode of SJF algorithm
+		- Round Robin (RR)
+			- Each process is assigned a fixed time in a cyclic way.
+		- Priority based scheduling
+			- Highest priority first. If priorities are equal then based on arrival time.
+		- Multilevel  Queue Scheduling
+			- According to priority, each process is pushed on to a queue.
+			- Only after execution of the highest priority queue, the next ones are processed
+			- Thus this suffers from starvation
+		- Multilevel feedback queue scheduling
+			- It allows processes to move between queues
+			- Processes separated based on their CPU burst time
+			- If a process uses too much CPU time, it is moved to a lower priority queue.
+		-
+	- Facts about scheduling algorithms
+	  collapsed:: true
+		- FCFS can cause long waiting times
+		- SJF and SRTF can cause starvations. Longer process will have to keep on waiting if short processes keep coming
+		- If time quantum of RR is very large, it is equal to FCFS
+		- SJF gives the average waiting time. But it is hard to predict the execution time of the processes.
+- The Critical Section Problem
+	- Critical Section
+		- The portion of the code in the program where shared variables are accessed and/or updated.
+	- Remainder section
+		- The remaining portion of the code excluding the critical section
+	- Race around condition
+		- when multiple processes access and modify the same data concurrently and the result of the execution depends on the particular order in which the access takes place.
+	- Solution to critical section problem must satisfy these conditions
+		- Mutual Exclusion
+			- If a process Pi is executing in the critical section, then no other process is allowed to enter into the critical section
+		- Progress
+			- A process running outside of the critical section shall not block another process that wishes to enter the CS.
+			- If such a process is blocked by another, then progress is hindered
+			- The purpose of this condition is to make sure that either some process is currently in the CS and doing some work or, if there is at least one process that wants to enter the CS, it will and then do some work. In both ways some work is getting done and therefore all processes are making progress overall.
+		- Bounded waiting

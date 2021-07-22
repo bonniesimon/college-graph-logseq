@@ -1,0 +1,32 @@
+- Check out : **TnP Keyvalue placement Meeting 29-jun-21** in main-journal graph
+- Points from other
+	- Programming questions
+		- Q Common elements of 3 array
+		- Q Reversing alphabets in a string of special characters and alphabets
+		- Q Find leaders in an array
+			- An element is leader if it is greater than all the elements right of it.
+			- So last element is always a leader.
+		- Q Find middle element of Linked list
+		- Q Create self balancing binary tree
+		- Q Evaluate expression of (, [, {
+		- Q Find equilibrium of an array
+		- Q Find the subarray of an array such that if the subarray is sorted, the entire array will be sorted.
+		- Q Find mirror of a binary tree
+		- Q Reversing a linked list
+		- Q See if two strings are anagrams
+	- DBMS
+		- Nested query and Inner Join
+		- Draw schema of design project and write a query based on it
+		- Difference between inner join and left join
+		- What is join
+		- Do a JOIN sql query. Not specific, but a generic JOIN query.
+	- Most focus is for DS and Algorithms, then DBMS
+	- Stack, queue, linked list, tree
+	- Inorder, Preorder, Postorder - work out on a tree
+	- If Java in resume
+		- Constructor overloading
+		- overriding
+		- Difference between the two above ones
+		- super()
+	- Merge sort
+	- Puzzles

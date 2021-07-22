@@ -95,4 +95,7 @@
 		  | 1:n cardinality  | 2  |
 		  | m:n cardinality  | 3  |
 		- [Reference](https://www.geeksforgeeks.org/minimization-of-er-diagrams)
-	-
+- Normalized vs Denormalized databases
+	- Normalized databases offer minimized redundancy and more consistency
+	- Denormalized databases offer optimized read time or faster access.
+	- Normalized databases requires more expensive joins to access data.
