@@ -1,141 +1,141 @@
 - Syllabus
-  - Introduction to the Internet: The World Wide Web, Web Browsers, Web Servers, Uniform Resource Locators, Multipurpose Internet Mail Extensions, The Hypertext Transfer Protocol. Common Gateway Interface(CGI), Content Management System – Basics Case Study: Apache Server, WordPress
+	- Introduction to the Internet: The World Wide Web, Web Browsers, Web Servers, Uniform Resource Locators, Multipurpose Internet Mail Extensions, The Hypertext Transfer Protocol. Common Gateway Interface(CGI), Content Management System – Basics Case Study: Apache Server, WordPress
 - *Multipurpose Internet Mail Extension(MIME)*
-  - Browser needs some way to determine the format of a document it receives from the web server.
-  - Different document formats require different rendering tools. Therefore knowing about the document format is a must for a web browser
-  - MIME is used to specify the format of different kinds of documents to be sent via the Internet mail. Since the web has similar needs to those of internet mail, MIME was adopted as a way to specify the document types transmitted over the web.
-  - How the document type is recognized using MIME?
-    - Web server attaches the MIME format specification to the beginning of a document that it is about to provide to a browser.
-    - When the browser receives the document from the web server, it uses the included MIME format specification to determine what to do with the document.
-    - If the content is text then the MIME tells the browser that it is text and also indicates the type of text that it is.
-    - if content is audio, the MIME tells the browser that it is audio
-  - format of MIME
-    - type/subtype
-    - types are text, image, video, etc
-    - subtypes of text are plain, html. of image are gif, jpeg. Video subtypes are mpeg, quicktime
-  - Server determines the type of the document by using the filename's extension as a key into a table of types
-    - if .html then text/html
-  - Browser also maintains a conversion table for finding the type of a document by its file name extension.
-    - this is used only when MIME type is not specified by the server.
-  - Certain helper applications or plugins are required by the browser to display certain types. Eg: audio and video can't be directly rendered by the browser. Certain plugins are required.
-  - Experimental document types - used for creating custom information
-  - format
-    - type/x-subtype
-    - eg : database/x-xbase, video/x-msvideo
-  - helper applications for these experimental document types should also be created by the user.
+	- Browser needs some way to determine the format of a document it receives from the web server.
+	- Different document formats require different rendering tools. Therefore knowing about the document format is a must for a web browser
+	- MIME is used to specify the format of different kinds of documents to be sent via the Internet mail. Since the web has similar needs to those of internet mail, MIME was adopted as a way to specify the document types transmitted over the web.
+	- How the document type is recognized using MIME?
+		- Web server attaches the MIME format specification to the beginning of a document that it is about to provide to a browser.
+		- When the browser receives the document from the web server, it uses the included MIME format specification to determine what to do with the document.
+		- If the content is text then the MIME tells the browser that it is text and also indicates the type of text that it is.
+		- if content is audio, the MIME tells the browser that it is audio
+	- format of MIME
+		- type/subtype
+		- types are text, image, video, etc
+		- subtypes of text are plain, html. of image are gif, jpeg. Video subtypes are mpeg, quicktime
+	- Server determines the type of the document by using the filename's extension as a key into a table of types
+		- if .html then text/html
+	- Browser also maintains a conversion table for finding the type of a document by its file name extension.
+		- this is used only when MIME type is not specified by the server.
+	- Certain helper applications or plugins are required by the browser to display certain types. Eg: audio and video can't be directly rendered by the browser. Certain plugins are required.
+	- Experimental document types - used for creating custom information
+	- format
+		- type/x-subtype
+		- eg : database/x-xbase, video/x-msvideo
+	- helper applications for these experimental document types should also be created by the user.
 - *HyperText Transfer Protocol*
-  - All web communications use the HTTP protocol
-  - HTTP consists of two phases
-    - Request
-      - General form of HTTP request is as follows
-        - HTTP method and domain part of the URL
-        - Header fields
-          - following first line of HTTP communication is any number of header fields (most are optional)
-          - format
-            - field_name : field_value
-          - Categories of Header fields
-            - General - for general information such as date
-            - Request - included in request headers
-              collapsed:: true
-              - One common request field is accept field. It specifies the preference of the browser for the MIME type of the requested document.
-              - Accept : text/plain
-              - Accept : text/*
-                - Wildcard character(*) used to specify that part of the MIME can be anything
-            - Response - for response headers
-            - Entity - used in both request and response
-        - blank line
-        - message body
-      - HTTP request methods
-        - GET
-        - POST
-          - Earlier used to post articles to a newsgroup
-          - Now used to sent data from browser to server, along with request to run the program to process the data
-        - PUT
-        - DELETE
-        - HEAD
-      - GET and POST are the most commonly used ones
-    - Response
-      - General form of HTTP response
-        - Status line
-          - meaning of status codes
-            - 1 - Informational
-            - 2 - Success
-            - 3 - Redirection
-            - 4 - Client error
-            - 5 - Server error
-        - Response header fields
-          collapsed:: true
-          - After the status line, the server sends the response headers
-          - contains information about the response
-        - blank line
-        - response body
-          collapsed:: true
-          - response could be a html file.
-    - Prior to HTTP 1.1 (which is the current version) when the server finished sending response to the client, the communications was closed.
-    - However right now, with HTTP 1.1, the communications remain open over a short span.
-    - This is to avoid needing to re-establish the communications connection with the server.
-    - This lead to a significant change to the efficiency of the web.
-  - Each HTTP communication(req or res) consists of two parts
-    - Header
-      - contains information about the communication
-    - Body
-      - contains the data of the communication
+	- All web communications use the HTTP protocol
+	- HTTP consists of two phases
+		- Request
+			- General form of HTTP request is as follows
+				- HTTP method and domain part of the URL
+				- Header fields
+					- following first line of HTTP communication is any number of header fields (most are optional)
+					- format
+						- field_name : field_value
+					- Categories of Header fields
+						- General - for general information such as date
+						- Request - included in request headers
+						  collapsed:: true
+							- One common request field is accept field. It specifies the preference of the browser for the MIME type of the requested document.
+							- Accept : text/plain
+							- Accept : text/*
+								- Wildcard character(*) used to specify that part of the MIME can be anything
+						- Response - for response headers
+						- Entity - used in both request and response
+				- blank line
+				- message body
+			- HTTP request methods
+				- GET
+				- POST
+					- Earlier used to post articles to a newsgroup
+					- Now used to sent data from browser to server, along with request to run the program to process the data
+				- PUT
+				- DELETE
+				- HEAD
+			- GET and POST are the most commonly used ones
+		- Response
+			- General form of HTTP response
+				- Status line
+					- meaning of status codes
+						- 1 - Informational
+						- 2 - Success
+						- 3 - Redirection
+						- 4 - Client error
+						- 5 - Server error
+				- Response header fields
+				  collapsed:: true
+					- After the status line, the server sends the response headers
+					- contains information about the response
+				- blank line
+				- response body
+				  collapsed:: true
+					- response could be a html file.
+		- Prior to HTTP 1.1 (which is the current version) when the server finished sending response to the client, the communications was closed.
+		- However right now, with HTTP 1.1, the communications remain open over a short span.
+		- This is to avoid needing to re-establish the communications connection with the server.
+		- This lead to a significant change to the efficiency of the web.
+	- Each HTTP communication(req or res) consists of two parts
+		- Header
+			- contains information about the communication
+		- Body
+			- contains the data of the communication
 - *Security*
-  - One aspect of web security is being able to send data from the client to the server and then get the response back from the server without the data being intercepted or corrupted.
-  - The security issues for such a transaction are
-    - Privacy
-    - Integrity
-    - Authentication
-    - Nonrepudiation
-  - Basic tool to support privacy and integrity is encryption.
-    - The message is encrypted before it is send.
-    - Interceptor can't read the message since he can't decrypt it.
-    - Decryption happens at the receivers end.
-    - Public key - private key. (working explained in text. pg 18)
-    - Most widely used public key is RSA.
-  - Denial of Service (DoS) and worms are a major threat to web applications.
+	- One aspect of web security is being able to send data from the client to the server and then get the response back from the server without the data being intercepted or corrupted.
+	- The security issues for such a transaction are
+		- Privacy
+		- Integrity
+		- Authentication
+		- Nonrepudiation
+	- Basic tool to support privacy and integrity is encryption.
+		- The message is encrypted before it is send.
+		- Interceptor can't read the message since he can't decrypt it.
+		- Decryption happens at the receivers end.
+		- Public key - private key. (working explained in text. pg 18)
+		- Most widely used public key is RSA.
+	- Denial of Service (DoS) and worms are a major threat to web applications.
 - *Common Gateway Interface(CGI)*
-  - Web server can delegate the generation of webpages to a console application. Such applications are know as CGI scripts.
-  - They can be written in any programming language
-  - CGI provides interface between the webservers and clients
-  - ![image.png](C:/Other Stuff/logseq/college/assets/image_1621948744638_0.png)
-  - Normally when a request for a file comes to the server, it'll respond with the file
-  - Alternatively the server can compose the response documents content on the fly using CGI
-  - It lets the console application to compute the documents contents and return the document to the server to respond with.
-  - What is the utility of CGI in the web?
-    - One common way for a browser user to interact with web server is through forms.
-    - A form is presented to the user and the filled contents will be sent to the server by clicking submit button.
-    - The server decodes the transmitted form contents, perform necessary computations and produce the output.
+	- Web server can delegate the generation of webpages to a console application. Such applications are know as CGI scripts.
+	- They can be written in any programming language
+	- CGI provides interface between the webservers and clients
+	- ![image.png](C:/Other Stuff/logseq/college/assets/image_1621948744638_0.png){:height 258, :width 574}
+	- Normally when a request for a file comes to the server, it'll respond with the file
+	- Alternatively the server can compose the response documents content on the fly using CGI
+	- It lets the console application to compute the documents contents and return the document to the server to respond with.
+	- What is the utility of CGI in the web?
+		- One common way for a browser user to interact with web server is through forms.
+		- A form is presented to the user and the filled contents will be sent to the server by clicking submit button.
+		- The server decodes the transmitted form contents, perform necessary computations and produce the output.
 - *Content Management Systems*
-  - CMS is a system used to manage content for a website
-  - It was developed as a mechanism to maintain the content of the website.
-  - It is the effective management of various kinds of web content with the support of centralized webmasters and decentralized web authors/editors
-    - They create, edit, manage and publish the content of a web page in accordance with the requirements.
-  - CMS consists of two elements
-    - Content management application(CMA)
-      - allows the content managers to manage the creation, modification and removal of content from a website without needing the expertise of a webmaster.
-    - Content delivery application(CDA)
-      - Uses the above information and compiles it to update the website.
-  - CMS allows centralized technical and decentralized non technical staff to create, manage and publish content to the web.
-  - CMS broken down into 4 categories
-    - Collecting
-      - Adding new components to the existing repository.
-      - include tools, procedures and staff that are employed to gather content and provide editorial and metadata processing.
-      - divided into 3 categories
-        - Authoring
-          - Creating content from scratch
-        - Aggregation
-          - gathering pre-existing content
-        - Conversion
-          - process of changing the metadata structure of the content.
-    - Workflow
-      - includes the tools and the procedures that assure that the entire process of collection, storage and publication runs effectively, efficiently and according to well-defined schedules and actions
-    - Storage or management
-      - repositories have the following functions
-        - storing content
-        - selecting content
-        - managing content
-        - connecting to other systems
-    - Publishing
-      - process through which content is drawn out of the repository and formatted into websites, web services and other publications.
+	- CMS is a system used to manage content for a website
+	- It was developed as a mechanism to maintain the content of the website.
+	- It is the effective management of various kinds of web content with the support of centralized webmasters and decentralized web authors/editors
+		- They create, edit, manage and publish the content of a web page in accordance with the requirements.
+	- CMS consists of two elements
+		- Content management application(CMA)
+			- allows the content managers to manage the creation, modification and removal of content from a website without needing the expertise of a webmaster.
+		- Content delivery application(CDA)
+			- Uses the above information and compiles it to update the website.
+	- CMS allows centralized technical and decentralized non technical staff to create, manage and publish content to the web.
+	- CMS broken down into 4 categories
+		- Collecting
+			- Adding new components to the existing repository.
+			- include tools, procedures and staff that are employed to gather content and provide editorial and metadata processing.
+			- divided into 3 categories
+				- Authoring
+					- Creating content from scratch
+				- Aggregation
+					- gathering pre-existing content
+				- Conversion
+					- process of changing the metadata structure of the content.
+		- Workflow
+			- includes the tools and the procedures that assure that the entire process of collection, storage and publication runs effectively, efficiently and according to well-defined schedules and actions
+		- Storage or management
+			- repositories have the following functions
+				- storing content
+				- selecting content
+				- managing content
+				- connecting to other systems
+		- Publishing
+			- process through which content is drawn out of the repository and formatted into websites, web services and other publications.
 - (taken from miss pdf and short text Robert......)
