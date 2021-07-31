@@ -83,13 +83,13 @@
 				- Designed and developed a total of 4 websites including the Official Takshak Online website.
 				- The websites in total accumulated over 15k hits resulting in increased exposure to the virtual event.
 				- Modern UI design built using Figma were coded using HTML, CSS along with Javascript libraries.
-		- Shopee Bee | Freelance React Developer | Remote | June 2021
+		- Shopee Bee | Freelance React Developer | Remote | June 2021 (June 1 - 4)
 			- Worked on fixing production bugs and thus enabling the website to be released on time.
 			- Formatted:
 				- Solved production bugs after debugging the code for an online ecommerce platform, ShopeeBee. Resulted in the platform being able to launch on time.
 				- Communicated with the original programmer and worked to fix the software specific bugs.
 				- Implemented new logic to eliminated a particular bug which lead to increased reliability of the data submitted by users.
-		- Canvas | Freelance React Developer | Remote | June 2021
+		- Canvas | Freelance React Developer | Remote | June 2021 (Jun 10 - Jun 18)
 			- Worked on the landing page of Canvas, which is to be the first impression of Canvas users.
 			- Formatted:
 				- Communicated with stakeholders on progress update, collected suggestions and developed the landing page of Canvas, a blockchain based content monetization platform.

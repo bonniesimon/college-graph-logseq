@@ -5,6 +5,7 @@
 # Resources
 	- [75 Leetcode question with good reviews by teamblind](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
 	- [Popular Interview Question Easy Edition by Leetcode](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
+	- [Leetcode Blind List](https://leetcode.com/list/xoqag3yj/) from Thejus
 	- Interview [Handbook](https://techinterviewhandbook.org/algorithms/array)
 		- Contains useful tips for each DS
 			-

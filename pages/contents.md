@@ -19,6 +19,7 @@
 	- [[CS368 Web Technologies]]
 	- [[HS300 Principles of Management]]
 	- [[S6 Exam prep]]
+	- Solved [question papers](https://www.ktuassist.in/2019/04/ktu-s6-cse-solved-question-papers.html)
 ## Semester 7
 	- [[Seminar 7th Sem]]
 ## Semester 8
