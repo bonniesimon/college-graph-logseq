@@ -8,6 +8,9 @@
 		- Remaining
 			- Last video on three address code in learn cse malayalam or last two pages of sir's pdf.
 ## DAA
+	- Module 2
+		- Log
+			- 2Aug Started module 2, working on master theorem. I didn't have a good understanding of master theorem. So I had to relearn some parts of it. Started AVL trees.
 	- Module 6
 		- Log
 			- 29Jul Studied backtracking.
@@ -20,3 +23,10 @@
 	- Module 5
 		- Log
 			- 30jul Started mod 5. Studied ICMP
+			- 1Aug Started IPv6
+		- Remaining
+			- Fixed header of IPv6
+# SEPM
+	- Module 5
+		- Log
+			- 1 Aug Started mod 5 Finished maintenance.

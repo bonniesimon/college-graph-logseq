@@ -81,6 +81,7 @@
 		- Based on the idea of a special server that assign IP addresses to host asking for one.
 		- ? working/events in DHCP
 # Internet Multicasting
+	- source: behrouz
 	- The IP protocol can be involved in two types of communication:
 		- unicasting
 			- Communication between one sender and one receiver
@@ -101,6 +102,7 @@
 					- last process on a host leaves, group no longer present on the group
 			- IGMP (Internet Group Management Protocol) is used for multicasting.
 	- ## IGMP (Internet Group Management Protocol)
+		- source : behrouz
 		- IGMP is a communication protocol used by hosts and adjacent routers for multicasting communication with IP networks and uses the resources efficiently to transmit messages/data packets.
 		- Multicasting is implemented using special multicast routers that are able to route multicast packets
 		- It is a protocol that manages Group membership
@@ -114,4 +116,68 @@
 			- Query
 			- Response
 		- Multicast routing is done using Spanning Trees
-	-
+	- An autonomous system (AS) is a group of networks and routers under the authority of a single administration.
+		- A large corporation that manages it's own network has full control over it is an AS
+		- A local ISP that provides services to local customers is an AS.
+		- Routing algorithm within an AS is intra domain routing protocol : Interior Gateway Protocol (OSPF)
+		- Routing algorithm between AS's is inter domain routing protocol : Exterior Gateway Protocol (BGP)
+	- ## OSPF (Interior Gateway Routing Protocol)
+		- source: behrouz (pdf pg: 696)
+		- OSPF is an implementation of the link state protocol
+			- Link state protocol is used by every router to compute the shortest path from itself to all other nodes.
+			- Many shortest paths are there, OSPF remembers this and during packet forwarding traffic is split across them.
+			- Helps to balance load
+				- ECMP (Equal Cost Multipath)
+		- OSPF supports 3 kinds of connections and networks
+			- Point to point lines between exactly 2 routers
+			- Multiaccess networks with broadcasting (LAN)
+			- Multiaccess networks without broadcasting (Switched WAN's)
+		- To handle routing effectively, OFPF divides an AS into areas.
+			- Each area is a collection of networks, hosts and routers all within an AS.
+			- There is a special are in AS called _backbone_
+			- All areas inside the AS should be connected to the backbone.
+			- ? Learn graph representation of this
+			- ? Learn message types
+		-
+	- ## BGP (Border Gateway Protocol)
+		- BGP is an implementation of path vector routing
+		- Used between different ASes; Intradomain. So therefore we have to keep in mind different policies. Eg: A information from Pentagon must not be put through a route through Iraq.
+		- We can divide AS into 3 categories
+			- Stub AS
+				- Have only one connection to another AS.
+				- Can't be used for transit traffic as there is no one on the other side
+			- Multihomed AS
+				- Has more than one connection to other ASs.
+				- Still has only one source or sink for data traffic.
+			- Transit AS
+				- It is a multihomed AS that also allows transient traffic.
+		- BGP is a form of distance vector protocol, but it is quite unlike intradomain distance vector protocols such as RIP
+			- Policy instead of minimum distance is used to pick routes.
+			- Instead of maintaining the cost of each path, it keeps track of the path used.
+		- Pair of BGP routers communicate with each other by establishing TCP connections.
+		- Instead of periodic updates, router tells its neighbours the exact path it is using.
+		- Check ma'am pdf notes to know how each node sends information to its neighbours
+		- Eliminates count to infinity problem
+# IPv6
+	- It was introduced because of the shortage of IPv4 addresses
+	- It uses 128-bit addresses.
+	- Major features
+		- Longer address than IPv4.
+		- Simplified header
+		- Better support for options
+		- Improved security
+		- Authentication and privacy are key features
+		- More attention was paid to quality of service
+		- End to end connectivity
+		- Mobility
+		- Faster forwarding/ routing
+		- Extensibility
+		- Auto configuration
+		- Smooth transition
+	- Comparison between IPv4 and IPv6 in ma'am's notes
+	- IPv6 datagram diagram in ma'am's pdf
+	- IPv6 address is 4 times larger than IPv4
+		- the header of IPv6 is 2 times larger than the IPv4
+	- IPv6 headers have on Fixed header and zero or more optional(Extension) headers.
+		- All the necessary information that is essential for a router is kept in the fixed header
+		- The Extension headers contain optional information that helps routers understand how to handle a packet/flow.
