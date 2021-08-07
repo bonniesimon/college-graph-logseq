@@ -34,7 +34,7 @@
 	  |      [[Leetcode 152 Maximum product subarray]]        |   -   |    Red    |
 	  |       [[Leetcode 53 Maximum Subarray]]       |   -   |    Yellow    |
 	  |      [[Leetcode 268 Missing Numbers]]        |  01-Aug    |   Green     |
-	  |              |      |        |
+	  |       [[Leetcode 33 Search in Rotated sorted array]]       |  03-Aug    |   Yellow    |
 	  |              |      |        |
 	  |              |      |        |
 	  |              |      |        |

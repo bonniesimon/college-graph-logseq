@@ -1,4 +1,13 @@
 ## Compiler Design
+	- Module 1
+		- Log
+			- 05Aug Started mod 1. Finished till Transition Diagram in sir's pdf.
+			- 06Aug Finished the TD.
+		- Remaining
+			- C code at the end of 2nd pdf.
+	- Module 2
+		- Log
+			- 06Aug Started mod 2.
 	- Module 5
 		- Log
 			- 22Jul Started learning Module 5 - Runtime environments
@@ -7,10 +16,27 @@
 			- 29jul forgot to write for a few days. Working on quadriples. Need to learn the topics from the last video on three address code on learn cse malayalam
 		- Remaining
 			- Last video on three address code in learn cse malayalam or last two pages of sir's pdf.
+	- Module 6
+		- Log
+			- 03Aug Started module 6.
+			- 04Aug Finished Code Optimization i.e sir's first pdf.
+			- 05Aug Finished Issues with Code generation.
+		- Remaining
+			- From code generation algorithm in sir's pdf.
 ## DAA
 	- Module 2
 		- Log
 			- 2Aug Started module 2, working on master theorem. I didn't have a good understanding of master theorem. So I had to relearn some parts of it. Started AVL trees.
+			- 3Aug Finished Red Black tree insertion.
+			- 4Aug B tree insertion.
+			- 5Aug Finished mod 2 - unions sets.
+		- Remaining
+			- Red black tree deletion, B tree deletion
+	- Module 3
+		- Log
+			- 06Aug Started mod 3.
+		- Remaining
+			- Spanning trees.
 	- Module 6
 		- Log
 			- 29Jul Studied backtracking.
