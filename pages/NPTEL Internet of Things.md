@@ -1,0 +1,43 @@
+- Week 2
+	- 6LoWPAN
+		- Low power Wireless Personal Area Network over IPv6
+		- Allows for the smallest devices with limited processing ability to transmit information wirelessly using internet protocol.
+		- Allows low power devices to connect to the internet.
+	- RFID
+		- Radio Frequency Identification
+		- Data digitally encoded in RFID tags, which can be read by a reader.
+		- Somewhat similar to bar codes.
+		- Compared to barcodes, data in RFID tag can be read without line of sight
+		- Working principle
+			- RFID uses radio waves to perform AIDC functions
+			- AIDC is Automation Identification and Data Capture technology.
+			- RFID derived from AIDC.
+			- AIDC uses wired communication
+		- Applications
+			- Inventory management
+			- Asset tracking
+			- personnel tracking
+			- ID badging
+	- ## MQTT
+		- Message Queue Telemetry Transport
+		- lightweight messaging protocol
+		- publish subscriber based
+		- used in conjunction with TCP/IP protocol
+		- A topic to which a client is subscribed is updated in the form of messages by the message broker.
+		- MQTT components
+			- Publishers
+			- Subscribers
+			- Brokers
+				- connect subscribers and publishers
+		- Architecture
+			- MQTT uses publisher-subscriber architecture. HTTP uses request-response architecture.
+			- Publisher subscriber is event driven
+		- Applications
+			- FB messenger uses MQTT for online chat
+			- Amazon Web services uses MQTT with amazon IoT
+	- ## CoAP
+		- Constrained Application Protocol
+		- Web transfer protocol for constrained nodes and networks.
+		- Designed for M2M applications.
+		- Based on Request Response model
+		- It is a session layer protocol

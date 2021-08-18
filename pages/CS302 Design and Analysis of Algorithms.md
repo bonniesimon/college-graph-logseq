@@ -1,1 +1,2 @@
 - [[DAA Module 3]]
+- [Video](https://youtu.be/IffBzJ2sb6w) to learn Strassen's matrix multiplication

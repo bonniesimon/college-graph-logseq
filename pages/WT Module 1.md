@@ -1,5 +1,58 @@
 - Syllabus
 	- Introduction to the Internet: The World Wide Web, Web Browsers, Web Servers, Uniform Resource Locators, Multipurpose Internet Mail Extensions, The Hypertext Transfer Protocol. Common Gateway Interface(CGI), Content Management System – Basics Case Study: Apache Server, WordPress
+- What is Internet?
+	- Internet is a huge collection of computers connected in a communications network.
+	- TCP/IP is the standard for computer network communications
+	- Internet is a network of networks rather than a network of computers.
+	- All devices connected to the internet should be uniquely identifiable.
+- Internet Protocol Address
+	- IP address of a device connected to the internet is a unique 32 bit number.
+	- It is written as four 8 bit numbers. eg : 192.168.1.2
+	- People almost always types in the Domain Names into their browsers to access websites but typing in their IP addresses will achieve the same goal.
+- Domain Names
+	- IP address are numbers. It would be difficult to remember them.
+	- To solve this issue Domain names are introduced.
+	- These are technically known as Domain Name System
+	- User only needs to enter the Domain names into their web browsers to access websites.
+	- But we need to convert them to IP address before they can be sent over the internet to the destination.
+	- This conversion is done using a nameserver.
+	- As soon as the domain names are provided, it'll be sent to name servers. Name server is responsible for converting it to IP.
+	- If one nameserver is unable to convert it to IP, then it'll contact another nameserver.
+- Origins of the web
+	- Tim Berners Lee proposed a new protocol for the internet for the exchange of documents.
+	- The proposed system allowed users to search for files and retrieve documents from databases on document serving computers.
+	- This system used hypertexts
+		- Hypertext is a document having links to other documents.
+	- Web is a collection of documents, some connected by links
+	- These documents are accessed by web browsers and provided by web servers.
+	- Web or Internet?
+		- Internet is a network of networks connected by equipment that allows them to communicate with each other.
+		- Web is a collection of software and protocols that has been installed on the computers on the internet.
+- Uniform Resource Locator
+	- All web pages are addressed with URLs
+	- It is used to locate resources on the web.
+	- Simply giving the domain name isn't sufficient to locate resources in the web.
+		- Domain helps you locate the server,
+		- but doesn't give information as to which document the client needs.
+	- General Form:
+		- scheme:object-address
+		- scheme is a communication protocol, such as http, ftp, etc
+	- URL specifies
+		- a server name
+		- directory path
+		- filename
+	- URLs are a part of the HTTP communications protocol.
+	- URL contains the information that directs the browser to the resource that the user wishes to access.
+		- Web servers make such resources available to the web clients.
+	- URLs can never have embedded space.
+		- URLs can never use semicolons, ampersands and colons
+	- Format of http URL is
+		- //fully-qualified-domain-name/path-to-document
+		- The path in the URL can differ from the path to the file in the server.
+		- URLs need not include all the directories in the path.
+		- The path that includes all the directories along the way is called a complete path.
+		- In most cases the path to a file is relative to some base path that is specified in the configuration files of the server. Such paths are called partial paths.
+		-
 - *Multipurpose Internet Mail Extension(MIME)*
 	- Browser needs some way to determine the format of a document it receives from the web server.
 	- Different document formats require different rendering tools. Therefore knowing about the document format is a must for a web browser
@@ -36,7 +89,6 @@
 					- Categories of Header fields
 						- General - for general information such as date
 						- Request - included in request headers
-						  collapsed:: true
 							- One common request field is accept field. It specifies the preference of the browser for the MIME type of the requested document.
 							- Accept : text/plain
 							- Accept : text/*
@@ -86,7 +138,8 @@
 		- Privacy
 		- Integrity
 		- Authentication
-		- Nonrepudiation
+		- Non-repudiation
+			- Repudiation - refusal to acknowledge a contract or a debt.
 	- Basic tool to support privacy and integrity is encryption.
 		- The message is encrypted before it is send.
 		- Interceptor can't read the message since he can't decrypt it.
@@ -118,7 +171,7 @@
 			- Uses the above information and compiles it to update the website.
 	- CMS allows centralized technical and decentralized non technical staff to create, manage and publish content to the web.
 	- CMS broken down into 4 categories
-		- Collecting
+		- Collecting/Authoring
 			- Adding new components to the existing repository.
 			- include tools, procedures and staff that are employed to gather content and provide editorial and metadata processing.
 			- divided into 3 categories

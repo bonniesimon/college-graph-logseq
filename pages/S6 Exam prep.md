@@ -1,4 +1,40 @@
-## Compiler Design
+- ## DAA
+  collapsed:: true
+	- Module 2
+		- Log
+			- 2Aug Started module 2, working on master theorem. I didn't have a good understanding of master theorem. So I had to relearn some parts of it. Started AVL trees.
+			- 3Aug Finished Red Black tree insertion.
+			- 4Aug B tree insertion.
+			- 5Aug Finished mod 2 - unions sets.
+		- Remaining
+			- Red black tree deletion, B tree deletion
+	- Module 3
+		- Log
+			- 06Aug Started mod 3.
+			- 07Aug Studied prims and kruskals
+			- 08Aug Studied Bellman Ford algorithm
+		- Remaining
+	- Module 4
+		- Log
+			- 08Aug Started module 4. Finished module 4.
+		- Remaining
+			- Complexity of matrix multiplication before Strassen's matrix multiplication
+			- Complexity of Strassen's matrix multiplication
+			- Algorithm of Matrix multiplication optimization and do it once more.
+	- Module 5
+		- Log
+			- 08Aug Started mod5, Fractional Knapsack problem
+		- Remaining
+			- Comparison between divide and conquer and DP
+	- Module 6
+		- Log
+			- 29Jul Studied backtracking.
+			- 30jul Studied Branch and bound. Complexity theory
+			- 31jul Working on complexity theory. started class of problems.
+		- Remaining
+			- Travelling Salesman problem solve by self
+			- From polynomial time reducibility
+- ## Compiler Design
 	- Module 1
 		- Log
 			- 05Aug Started mod 1. Finished till Transition Diagram in sir's pdf.
@@ -8,6 +44,19 @@
 	- Module 2
 		- Log
 			- 06Aug Started mod 2.
+	- Module 3
+		- Log
+			- 07Aug Started mod 3.
+			- 08Aug Finished mod 3
+		- Remaining
+			- Operator precedence algorithm
+			- Need to learn the algorithms
+	- Module 4
+		- Log
+			- 08Aug Started mod 4
+		- Remaining
+			- Bottom up evaluation of S attributed definition
+			- Type checking for statements and coercion
 	- Module 5
 		- Log
 			- 22Jul Started learning Module 5 - Runtime environments
@@ -23,28 +72,6 @@
 			- 05Aug Finished Issues with Code generation.
 		- Remaining
 			- From code generation algorithm in sir's pdf.
-## DAA
-	- Module 2
-		- Log
-			- 2Aug Started module 2, working on master theorem. I didn't have a good understanding of master theorem. So I had to relearn some parts of it. Started AVL trees.
-			- 3Aug Finished Red Black tree insertion.
-			- 4Aug B tree insertion.
-			- 5Aug Finished mod 2 - unions sets.
-		- Remaining
-			- Red black tree deletion, B tree deletion
-	- Module 3
-		- Log
-			- 06Aug Started mod 3.
-		- Remaining
-			- Spanning trees.
-	- Module 6
-		- Log
-			- 29Jul Studied backtracking.
-			- 30jul Studied Branch and bound. Complexity theory
-			- 31jul Working on complexity theory. started class of problems.
-		- Remaining
-			- Travelling Salesman problem solve by self
-			- From polynomial time reducibility
 ## CN
 	- Module 5
 		- Log
