@@ -1,0 +1,3 @@
+- Solved it using my logic
+- Need to see if optimized solution exists
+- Need to solve using STL stack

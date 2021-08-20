@@ -35,8 +35,8 @@
 	  |       [[Leetcode 53 Maximum Subarray]]       |   -   |    Yellow    |
 	  |      [[Leetcode 268 Missing Numbers]]        |  01-Aug    |   Green     |
 	  |       [[Leetcode 33 Search in Rotated sorted array]]       |  11-Aug    |   Green|
-	  |              |      |        |
-	  |              |      |        |
-	  |              |      |        |
-	  |              |      |        |
+	  |      [[Leetcode 15 3-Sum]]        |   -   |    Green    |
+	  |       [[Leetcode 11 Container with Most Water]]       |   19Aug   |   Green     |
+	  |     [[Leetcode 242 Valid Anagram]]         |   19Aug   |   Yellow |
+	  |       [[Leetcode 20 Valid Parentheses]]       |   19Aug   |    Yellow|
 	  |              |      |        |
