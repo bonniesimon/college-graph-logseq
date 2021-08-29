@@ -1,0 +1,1 @@
+- Aptitude test asked [questions](https://q4interview.com/commvault/written-round-questions-with-answer/3)

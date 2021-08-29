@@ -164,7 +164,7 @@
 		- Ultrasonic
 ## Optimal Geographical Density Control (OGDC) Algorithm
 	- It comes under the Distributed and Localized area coverage algorithm
-	- Starting node broadcasts a message containing ideal direction
+	- Starting node broadcasts a message containing **ideal direction**
 ## Coverage
 	- Barrier Coverage
 		- K-barrier coverage ensures that a particular barrier is covered by al least k sensors.
@@ -329,3 +329,94 @@
 		- Latency
 		- Bandwidth
 	- Fog provides transient storage
+# Week 10
+## Smart City
+	- Analogy
+		-
+		  |Humans | Smart Cities|
+		  |------|------|
+		  | Skeleton | Buildings, Industries, people |
+		  |Skin| Transportation, Logistics|
+		  |Organs|Hospital Police Banks, schools|
+		  |Brain|Ubiquitously embedded intelligence|
+		  |Nerves|Digital Telecommunication networks|
+		  |Sensory organs|Sensors, Tags|
+		  |Cognition|Software|
+	- Need for smart city
+		- Rapidly growing urban populations
+		- Fast depleting natural resources
+		- Changes in environment and climate
+	- Application of Focus areas
+		- Smart Economy - Competitiveness
+		- Smart governance - citizen participation
+		- Smart people - social and human capital
+		- Smart mobility - transport and ICT
+		- smart environment - natural resources
+		- smart living - quality of life
+	- Smart homes should focus on
+		- health monitoring
+		- conservation of resources (eg. electricity, water, fuel)
+		- security and safety
+	- Smart vehicles should focus on
+		- assitance to drivers during bad weather or low visibility
+		- detection of bad driving patterns or driving under the influence of substances
+		- auto alert generation during crashes
+		- self diagnostics
+	- Both traditional and renewable energy sources may be placed on the same smart grid
+	- IOT challenges in smart cities
+		- Security and Privacy
+			- Multi-tenancy may induce the possibility of data leakage
+		- Heterogeneity
+			- Integration of varying hardware platforms and specifications
+			- Integration of different radio specifications
+			- Integration of various software platforms
+			- Accommodating varying user requirements
+		- Reliability
+		- Large scale
+			- Delay due to large scale deployments
+			- Delay due to mobility of deployed nodes
+			- Distribution of devices can affect monitoring tasks
+		- Legal and social aspects
+		- Big data
+	- Both individual and informed consent must be required to use humans as data sources
+	- Device placement and network architecture is important for reliable end to end IoT implementation
+	- Security
+	- Mobility is a main challenge in connected vehicles in comparison to that of smart cities
+	- V2X - Vehicle to Everything
+# Week 11
+## Smart Grid
+	- Smart Grids enable bidirectional flow of energy, bidirectional communication and an array of founctionalities and applications
+	- Power restoration time in traditional grids after disturbances is higher
+	- Running smart devices during peak hours results in higher energy bills
+	- Both consumers and stakeholders are benefited on using smart grids
+	- Micro grids can detach from main smart grids at any point of time without disrupting the core grid
+	- Consumer participation is the property of smart grids that is responsible for controlling appliances
+	- Property of maintaining power quality in smart grids facilitate Load Forecasting
+	- Computerized control helps in minimizing energy use in smart homes when the power grid is under stress.
+	- Smart meters provides the smart grids an interface between the consumers and the energy service providers
+## IIOT (Industrial Internet of Things)
+	- Internet of things INTERSECTION Industry 4.0 = IIoT
+	- IoT deals with consumer IoT
+	- IIOT deals with Enterprise IoT
+	- IIOT is based on the "wrap & re-use" approach
+	- Order of occurence
+		- Mechanized production
+		- Mass production
+		- Internet evolution and automation
+		- IIoT
+## Big Data
+	- Big data is characterized by 7 Vs
+		- Volume
+			- Quantity of data
+		- Velocity
+			- Speed of generation of data
+		- Variety
+			- category to which the data belongs to
+		- Variability
+			- Data whose meaning is constantly changing
+		- Veracity
+			- refers to biases, noise and abnormality in data
+		- Visualization
+			- Presentation of data in a pictorial or graphical format
+		- Value
+			- Extracting useful business information from scattered data

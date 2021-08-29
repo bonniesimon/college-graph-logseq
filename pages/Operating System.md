@@ -96,3 +96,6 @@
 			- If such a process is blocked by another, then progress is hindered
 			- The purpose of this condition is to make sure that either some process is currently in the CS and doing some work or, if there is at least one process that wants to enter the CS, it will and then do some work. In both ways some work is getting done and therefore all processes are making progress overall.
 		- Bounded waiting
+	- Difference between Binary Semaphore and Mutex
+		- Binary Semaphore is a signalling mechanism for achieving mutual exclusion.
+		- Mutex is a locking mechanism for achieving mutual exclusion.

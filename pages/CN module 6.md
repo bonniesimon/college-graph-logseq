@@ -1,0 +1,301 @@
+- [[CN Module 5]]
+- Syllabus
+	- Transport Layer – TCP & UDP.
+	- Application layer –FTP, DNS, Electronic mail, MIME, SNMP.
+	- Introduction to World Wide Web.
+- Source - Behrouz Textbook
+  background-color:: #787f97
+# Transport Layer
+- Process to process delivery - Transport Layer
+	- Node to node delivery - Data Link Layer
+		- Data link layer is responsible for delivery of frames between neighbouring nodes over a link
+	- Host to Host - Network Layer
+		- Network layer is reponsible for delivery of datagrams between two hosts
+	- Process to Process - Transport Layer
+		- Communication on the internet however is not defined as exchange of data between two nodes or two hosts but rather between two processes.
+		- We need a way to communicate between process in the a host with a process in another host.
+		- Transport layer does this
+		- Common way to achieve process to process communication is by client server paradigm.
+- Transport layer has mainly 3 protocols
+	- SCTP
+	- TCP
+	- UDP
+- Client Server Paradigm
+	- Most common way to achieve process to process communication
+	- A process on the local host (client) needs services from a process on a remote host (server)
+	- Addressing
+		- At data link layer, we need **MAC address.**
+		- At network layer, we need **IP address**
+		- At transport layer, we need **port number.**
+			- Port number uniquely identifies the processes running on the destination host.
+			- Destination port is needed for delivery, source port is needed for reply.
+			- Port number is a 16bit number.
+			- Client program identifies itself with a port number, chosen randomly by the transport layer software running on the client host. This is called ephemeral port number
+			- A server process must define itself a port number. It can't be random as it is used to identify the process.
+		- Destination IP address chooses the host among the different hosts in the world and the Port number chooses the process on this host.
+	- IANA ranges (Internet Assigned Number Authority)
+		- Port numbers are divided into three ranges by IANA :
+			- Well known
+				- Assigned and controlled by IANA
+				- Ports from 0 to 1023
+			- Registered
+				- Not assigned or controlled by IANA
+				- They can only be registered with IANA to prevent duplication
+				- 1024 to 49,151
+			- Dynamic (or private)
+				- Neither controlled nor registered
+				- Can be used by any process
+				- These are ephemeral ports
+				- 49,152 to 65,535
+	- Socket Addressing
+		- Process to process delivery requires two identifiers : IP address and Port number.
+		- Combination of IP address and port number is called the socket address.
+		- IP header contains the client IP address and the server IP address
+		- UDP or TCP header contains the port numbers.
+- Multiplexing and Demultiplexing
+	- At the sender end, there may be several processes that need to send packets.
+	- But there is only one transport layer. This is many to one relationship.
+	- Thus we require multiplexing.
+	- Similarly at the receivers end, the relationship is one-to-many and requires demultiplexing.
+- Connectionless vs Connection oriented services
+	- Connectionless service
+		- UDP
+		- Packets are sent from one party to the other without the need for connection establishment or connection release.
+		- Packets are not numbered.
+		- They maybe delayed or lost or arrive at a different order.
+	- Connection-oriented service
+		- TCP and SCTP
+		- Connection is first established between the sender and the receiver; data is transferred; then connection is released.
+- Reliable vs Unreliable
+	- Reliable
+		- Flow and error control measures
+		- But slower and more complex service
+	- Unreliable
+		- No flow or error control
+		- Fast, real time service
+## User Datagram Protocol (UDP)
+	- Connectionless, unreliable transport protocol.
+	- It does not add anything to the services of IP except to provide process to process communication instead of host to host communication
+	- well know UDP ports diagram (study from ppt)
+	- User Datagram
+		- UDP packets are called User Datagram
+		- Have fixed-size header of 8 bytes
+			- Header - 8bytes
+				- Source port number - 16 bits
+				- Destination port number - 16 bits
+				- Total length - 16 bits
+				- Checksum - 16 bits
+			- Data - remaining bytes
+		- UDP length = IP length - IP header's length
+		- Psuedo-header for checksum calculation (check ppt)
+	- UDP operation
+		- Connectionless Services
+			- Each user datagram sent by UDP is an independent datagram
+			- There is no relationship between different datagrams even if they from the same source process
+			- Datagrams are not numbered
+			- No connection establishment or no connection termination
+			- Only those processes sending short messages should use UDP
+		- Flow and Error control
+			- UDP has no flow control, hence no window mechanism.
+			- The receiver may overflow with incoming messages
+			- No error control mechanism except checksum. Sender will not know of duplicate or lost messages.
+			- Lack of flow control or error control means process using UDP must provide these.
+		- Encapsulation and Decapsulation
+			- To send a message from one process to another, the UDP protocol encapsulates and decapsulates messages in an IP datagram
+		- Queuing
+			- In UDP queues are associated with ports.
+			- (diagram in ppt)
+## Transmission Control Protocol (TCP)
+	- Connection oriented protocol. Reliable protocol.
+	- it creates a virtual connection between two TCPs to send data
+	- TCP uses flow and error control mechanisms at transport level.
+	- TCP Services
+		- Process to Process communication
+		  collapsed:: true
+			- TCP, like UDP, provides process to process communication using port numbers.
+		- Stream Delivery Service
+		  collapsed:: true
+			- In UDP, the messages sent are independent of each other.
+			- TCP allows the sending process to deliver data as stream of bytes.
+			- It allows the receiving process to obtain data as stream of bytes.
+			- (diagram)
+			- Sending and Receiving buffers
+				- Sending and receiving process may not write or read data at the same speed.
+				- So TCP needs buffers for storage.
+				- Two types of buffers : Sending buffer and receiving buffer.
+				- (how sending and receiving buffers work in pdf)
+			- Segment
+				- Although buffering handles the disparity between the speed of the producing and consuming processes, we need one more step before we can send data.
+				- IP layer requires the data to be in packets. However data is in stream of bytes form in TCP layer.
+				- So we need to group number of bytes into packet called segment.
+				- TCP adds header to each segment and delivers the segment to the IP layer for transmission.
+				- The segments are encapsulated in an IP datagram.
+		- Full Duplex communication
+		  collapsed:: true
+			- TCP offers full duplex service
+			- Data can flow in both directions at the same time.
+			- Each TCP has a sending and receiving buffer
+			- and segments move in both directions
+		- Connection oriented service
+		  collapsed:: true
+			- When data is to be exchanged between two processes
+				- Connection established
+				- Data exchanged
+				- Connection terminated.
+		- Reliable Service
+		  collapsed:: true
+			- It is a reliable transport protocol
+			- Uses acknowledgement mechanism
+			- Check the safe and sound arrival of data
+	- TCP Features
+		- Numbering system
+		- Flow control
+		  collapsed:: true
+			- TCP provides flow control
+			- Receiver of data controls the data sent by the sender
+			- Done to prevent receiver from being overwhelmed with data
+			- Numbering system allows TCP to use byte oriented flow control
+		- Error control
+		  collapsed:: true
+			- Implements error control to provide reliable service
+		- Congestion control
+		  collapsed:: true
+			- Unlike UDP, TCP takes in account the congestion in the network.
+			- The amount of data sent by the sender is not only controlled by the receiver but also the congestion in the network.
+	- TCP Segment
+		- A packet in TCP is called a segment.
+		- Segment consists of 20 to 60 bytes header
+		- (header format in ppt) learn what each value means.
+	- TCP Connection
+		- TCP connection-oriented transmission requires three phases
+			- Connection Establishment
+			- Data transfer
+			- Connection termination
+		- Connection Establishment
+			- TCP transmits data in full duplex mode.
+			- Three Way Handshaking
+				- Connection establishment in TCP is called Three way handshaking.
+				- Consider the case where a client wants to make a connection with a server.
+				- The process starts with the server. Server tells its TCP that it is ready to accept connection. This is called _Passive open_
+					- The Open is called passive since the server does nothing apart from specifying that it is ready to establish connection.
+				- The client program issues a request for _Active open_ . The client then specifies to its TCP the server it wished to connect to.
+					- Client using TCP takes the active role; initiates the connection by sending TCP message to start the connection (a SYN message).
+				- TCP now starts the Three way handshaking process.
+				- The three steps in the three way handshaking process are
+					- The client sends the first segment, a SYN segment, in which only the SYN flag is set.
+						- Client sends SYN packet with the sequence number x
+					- The server sends the second segment, a SYN+ACK segment, with 2 flag bits: SYN and ACK
+						- The server responds with SYN with sequence number y and ACK with sequence number x+1
+					- The client sends the third segment. This is just an ACK segment.
+						- On receiving the segment send by the server, client responds with ACK packet with sequence number y+1
+						- The server when receives the ACK packet, initiates the connection
+		- Data Transfer
+			- After connection is established, bidirectional transfer takes place
+			- The server and client both send data and acknowledgement
+		- Connection Termination
+			- To release the connection, either party can send a TCP segment with the FIN bit set, which means no more data to transit
+			- The initiator sends FIN
+			- The responder on receiving this knows that
+				- no more data to send
+				- thus will send acknowledgement
+			- The connection is closed from one side.
+			- Now the responder will do the same steps to close the connection from that side.
+			- When both directions have been shut down, the connection is released.
+		- Transmission Control Block (TCB)
+			- Each connection is distinct, hence we must maintain data about each connection separately.
+			- Each device maintains its own TCB
+			- TCP uses a data structure called TCP for this purpose.
+			- It contains information about the connection such as
+				- the two socket numbers that identify it
+				- pointers to buffers where incoming and outgoing data are held.
+				- the number of bytes received and acknowledged
+				- bytes received but not acknowledged
+				- current window size
+			- TCB is also used to implement the sliding window mechanism to handle flow control
+- Learn the Difference between TCP and UDP (in the ppt that maria shared)
+# Application Layer
+- ## Domain Name System
+	- Each internet host is assigned a host name and IP address
+		- Host name consists of strings
+		- IP address consists of 32bit intergers
+	- DNS is the naming service that resolves host names to IP address
+	- DNS enables the users to use hosts names instead of addresses to refer remote hosts
+	- Need of DNS
+		- TCP/IP protocols use IP address to locate a host in the internet
+		- People find it hard to use 32 bit integers to locate host. Rather people prefer to use strings or names
+		- A system should be in place that maps the name to the address or an address to a name.
+		- DNS translates internet domain and host names to IP addresses and vis-a-vis
+	- Name space
+		- The names given to host must be unique since the IP addresses are unique.
+		- A name space that maps each address to a unique name can be organized in two ways:
+			- Flat name space
+				- a name is assigned to an address
+				- name here is a sequence of characters without structure.
+				- It cannot be used in a large system such as internet
+				- Needs to be centrally controlled
+			- Hierarchical name space
+				- Each name is made up of several parts
+				- This prevents duplication since the name is made up of several parts
+					- First part can define nature of organization
+					- second part define the name
+					- third part the department
+				- Authority to assign and control the namespaces can be decentralized.
+	- Domain Name Space
+		- Domain name space is hierarchical in design
+		- The names are defined in an inverted tree structure with the root at the top
+		- The tree can have 128 levels.
+		- Each domain is partitioned into subdomains and these are further partitioned.
+		- Leaves of a tree represent domains that have no subdomains
+		- Each node in the tree has a label
+		- Each domain is named by the path upward from it to the root. (eg in pdf)
+		- Full domain name is a sequence of labels separated by dots.
+		- Fully Qualified Domain Name
+			- If a label is terminated by an null string, then it is a FQDN
+			- contains full name of a host, contains all labels
+		- Partially Qualified Domain Name
+			- If a label is not terminated by a null string, then it is a PQDN
+			- It is used when the name to be resolved is the same site as the client.
+	- Domains
+		- Domain is a subtree of domain name space
+		- Name of the domain is the domain name of the node at the top of the subtree
+		- Domain names are case sensitive
+		- Full path must not exceed 255 characters.
+	- Distributing of name space
+		- The information contained in the domain name space must be stored
+		- It is unreliable and inefficient to store it in one computer
+		- Solution is to distribute information among many computers called DNS servers
+		- Hierarchy of Name Servers
+			- Zone
+				- What a server is responsible for or has authority over is called a zone
+				- The domain and zone refer to the same thing
+				- Server makes a database called a zone file
+					- keeps all the information for every node under that domain.
+			- Root server
+				- Root server is a server whose zone consists of the whole tree
+				- Root server does not store any information about domains
+					- but delegates its authority to other server, keeping references to those servers.
+			- Primary server
+				- DNS defines two types of servers : primary and secondary servers
+				- Primary server is a server that stores the zone file for the zone it has an authority
+				- It is responsible for creating, updating and maintaining the file
+				- stores the file in its local disk.
+			- Secondary server
+				- Secondary server is a server that
+					- transfers the complete information about a zone from another server
+					- stores the file on its local disk
+				- Secondary server neither creates nor updates the zone files.
+				- Updating if required is done by the primary server.
+			- Root server primary and secondary server (in pdf)
+	- DNS in the Internet
+		- In the internet, the domain name space is divided into three different sections
+			- Generic domains
+				- Generic domains define registered hosts according to their generic behaviour
+				- Each node in the tree defines a domain
+			- country domains
+				- Used two character country abbreviations
+				- can be organizational or more specific national designations
+			- inverse domains
+	- Resolutions
+		- (read in pdf)
+## File Transfer Protocol
+	-

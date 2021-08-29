@@ -1,5 +1,7 @@
 - [[KeyValue Interview Prep]]
 - [[SOTI Placement Prep]]
+- [[CommVault Placement Prep]]
+- [[CommVault Meeting with Alumni 20Aug21]]
 # Todo
 	- Find out all the DSA / interview prep repos in my github stars
 # Resources
@@ -28,6 +30,10 @@
 	- [[Hashing CPP]]
 		- check out [stringstream](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/) scroll down till you find it
 # Problems
+	- Legend
+		- Red - Couldn't find the logic. Read the solution. Need to revisit later
+		- Yellow - Found a logic, but not optimum logic. Read the optimum solution. Need to solve it using optimum solution.
+		- Green - Either solved it in the optimum way the first try, or came back to a Red or Yellow and solved it
 	-
 	  | Problem Name | Date | Status |
 	  |--------------|------|--------|
@@ -39,4 +45,7 @@
 	  |       [[Leetcode 11 Container with Most Water]]       |   19Aug   |   Green     |
 	  |     [[Leetcode 242 Valid Anagram]]         |   19Aug   |   Yellow |
 	  |       [[Leetcode 20 Valid Parentheses]]       |   19Aug   |    Yellow|
-	  |              |      |        |
+	  |       Minimum Window Substring       |   20Aug   |   Red     |
+	  | [[Leetcode 3 Longest Substring Without Repeating Characters]] | 20Aug| |
+	  |[[Leetcode 5 Longest Palindromic Substring]]| 23Aug| Yellow|
+	  | [[Leetcode 209 Minimum Size Subarray Sum]] | 25Aug | Green|

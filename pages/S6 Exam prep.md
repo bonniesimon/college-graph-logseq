@@ -35,6 +35,7 @@
 			- Travelling Salesman problem solve by self
 			- From polynomial time reducibility
 - ## Compiler Design
+  collapsed:: true
 	- Module 1
 		- Log
 			- 05Aug Started mod 1. Finished till Transition Diagram in sir's pdf.
@@ -73,13 +74,27 @@
 		- Remaining
 			- From code generation algorithm in sir's pdf.
 ## CN
+	- Module 2
+		- Remaining
+			- The transmitter algorithm
 	- Module 5
 		- Log
 			- 30jul Started mod 5. Studied ICMP
 			- 1Aug Started IPv6
 		- Remaining
 			- Fixed header of IPv6
+	- Module 6
+		- Log
+			- 26Aug Started mod 6. TCP last topic remaining.
+			- 27Aug Worked till distribution of name space, FTP
+		- Remaining
+			- Silly window syndrome (found in question paper)
+			- Circular buffer working (found in question paper)
 # SEPM
 	- Module 5
 		- Log
 			- 1 Aug Started mod 5 Finished maintenance.
+	- Module 6
+		- Log
+			- 26Aug Started mod 6. Software Configuration management
+			- 27Aug User Interface, Just started CASE

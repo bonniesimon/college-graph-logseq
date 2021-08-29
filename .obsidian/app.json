@@ -1,0 +1,12 @@
+{
+  "alwaysUpdateLinks": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "pages",
+  "attachmentFolderPath": "assets",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "spellcheck": true,
+  "foldHeading": true,
+  "showLineNumber": false,
+  "vimMode": true
+}

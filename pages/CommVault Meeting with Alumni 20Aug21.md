@@ -1,0 +1,6 @@
+- Round 1
+	- MCQ questions
+	- Coding logic questions
+	- 4 sections
+	- 'Find the output' kinda questions
+-

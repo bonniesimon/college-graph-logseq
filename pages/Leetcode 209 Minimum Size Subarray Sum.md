@@ -1,0 +1,1 @@
+- I kinda got the solution using two pointers. The optimal solution is kinda similar to mine.

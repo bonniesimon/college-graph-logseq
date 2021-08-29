@@ -63,7 +63,6 @@
 				- Eg : student is enrolled to a course
 			- n-ary Relationship
 		- Cardinality
-		  collapsed:: true
 			- The number of times an entity of an entity set participates in a relationship.
 			- One to One
 				- When each entity in each entity set can take part only once in a relationship.

@@ -61,6 +61,7 @@
 			- it means to provide so much router capacity, buffer space and bandwidth that the packets just fly through easily.
 			- Disadvantage
 				- it is really expensive
+			- Telephone system is a good example. You'll hear the dial tone instantly when you pick up the phone.
 		- ### Buffering
 			- Flows can be buffered on the receiving side before being delivered to a output device
 			- It does not affect reliability or bandwidth

@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "00cee0c6e235b6ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "98b7031c79504050",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "580bd9155723775b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2bffa7d060409e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "118771ce94156c9a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "09a60095dacc02e3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "db278eb9504b35ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "da726620ebfff2bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37bd9db73513f252",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "98b7031c79504050",
+  "lastOpenFiles": [
+    "journals/2021_08_28.md",
+    "journals/2021_05_23.md",
+    "pages/DP-3T.md",
+    "pages/CN Module 4.md",
+    "pages/SEPM Module 2.md",
+    "pages/SEPM Module 1.md",
+    "pages/CN module 6.md",
+    "pages/CS306 Computer Networks.md",
+    "pages/contents.md"
+  ]
+}
