@@ -72,7 +72,7 @@
 		- If every node in the network has such information
 		- then every node will have enough knowledge of the network to build a complete map of the network.
 	- So Link State Routing depends on two things :
-		- reliable dissemination of link state information
+		- reliable dissemination(means spreading) of link state information
 		- and calculation of routes from the sum of all the accumulated link state knowledge.
 	- LSP has two phases
 		- ### > Reliable Flooding

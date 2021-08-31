@@ -89,22 +89,22 @@
 		- UDP length = IP length - IP header's length
 		- Psuedo-header for checksum calculation (check ppt)
 	- UDP operation
+		- Encapsulation and Decapsulation
+			- To send a message from one process to another, the UDP protocol encapsulates and decapsulates messages in an IP datagram
+		- Queuing
+			- In UDP queues are associated with ports.
+			- (diagram in ppt)
+		- Flow and Error control
+			- UDP has no flow control, hence no window mechanism.
+			- The receiver may overflow with incoming messages
+			- No error control mechanism except checksum. Sender will not know of duplicate or lost messages.
+			- Lack of flow control or error control means process using UDP must provide these.
 		- Connectionless Services
 			- Each user datagram sent by UDP is an independent datagram
 			- There is no relationship between different datagrams even if they from the same source process
 			- Datagrams are not numbered
 			- No connection establishment or no connection termination
 			- Only those processes sending short messages should use UDP
-		- Flow and Error control
-			- UDP has no flow control, hence no window mechanism.
-			- The receiver may overflow with incoming messages
-			- No error control mechanism except checksum. Sender will not know of duplicate or lost messages.
-			- Lack of flow control or error control means process using UDP must provide these.
-		- Encapsulation and Decapsulation
-			- To send a message from one process to another, the UDP protocol encapsulates and decapsulates messages in an IP datagram
-		- Queuing
-			- In UDP queues are associated with ports.
-			- (diagram in ppt)
 ## Transmission Control Protocol (TCP)
 	- Connection oriented protocol. Reliable protocol.
 	- it creates a virtual connection between two TCPs to send data
@@ -113,6 +113,12 @@
 		- Process to Process communication
 		  collapsed:: true
 			- TCP, like UDP, provides process to process communication using port numbers.
+		- Full Duplex communication
+		  collapsed:: true
+			- TCP offers full duplex service
+			- Data can flow in both directions at the same time.
+			- Each TCP has a sending and receiving buffer
+			- and segments move in both directions
 		- Stream Delivery Service
 		  collapsed:: true
 			- In UDP, the messages sent are independent of each other.
@@ -130,12 +136,6 @@
 				- So we need to group number of bytes into packet called segment.
 				- TCP adds header to each segment and delivers the segment to the IP layer for transmission.
 				- The segments are encapsulated in an IP datagram.
-		- Full Duplex communication
-		  collapsed:: true
-			- TCP offers full duplex service
-			- Data can flow in both directions at the same time.
-			- Each TCP has a sending and receiving buffer
-			- and segments move in both directions
 		- Connection oriented service
 		  collapsed:: true
 			- When data is to be exchanged between two processes

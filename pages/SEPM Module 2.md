@@ -1,41 +1,101 @@
 - [[SEPM Module 1]]
 - *Process Framework Model*
-  - ![image.png](C:/Other Stuff/logseq/college/assets/image_1621793520803_0.png)
-    id:: 60aa9ae7-e308-4487-93a4-ecc52f5972e9
-  - (Taken from pressman textbook and module 2 studoob pdf)
+	- ![image.png](C:/Other Stuff/logseq/college/assets/image_1621793520803_0.png)
+	  id:: 60aa9ae7-e308-4487-93a4-ecc52f5972e9
+	- (Taken from pressman textbook and module 2 studoob pdf)
 - *Capability Maturity Model (CMM)*
+- ISO 9000
+	- source : module 2 ktuassist notes
+	- ISO is a consortium established to formulate, maintain and foster standardization.
+	- ISO 9000 specifies set of guidelines for
+		- maintaining a quality system.
+		- repeatable and high quality product development
+		- the production process
+	- IS0 9001
+		- applies to organizations that are involved in the design, development, production and servicing of goods
+		- This is the standard applicable to software development.
+	- ISO 9002
+		- applies to organizations involved in the production of products but not involved in the design of those products
+		- not applicable to software development
+	- ISO 9003
+		- applies to organizations involved only in the installation and testing of the products
+	- Need for obtaining ISO 9000 certification
+		- Confidence of the customers in the organization increases
+		- ISO 9000 requires a well documented software development process. This contributes to the repeatable and higher quality of the developed software.
+		- Makes the development process focussed, efficient and cost-effective.
+		- Points out the weak points of the organization
+		- Sets a basic framework for the development of an optimal process.
+	- **ISO 9001**
+		- Main requirements related to software industry
+			- Management responsibility
+			- Quality system
+			- Process control
+			- Design control
+			- Document control
+			- Testing and Inspection
+			- Training
+		- Features of ISO 9001
+			- All documents related to the development of software product should be properly managed, authorized and controlled. This requires a software configuration management.
+			- Important documents should be independently checked and reviewed for effectiveness and correctness.
+			- Proper plans and schedules must be prepared
+			- Progress against these plans should also be monitored.
+			- Product should be tested against specification
+	- Shortcomings of ISO 9000
+		- Provides a software process model to be adhered to but does not guarantee the process to be high quality
+		- Does not give any guideline for defining a appropriate process
+		- ISO 9000 certificate can be used for corporate advertisements but not for product advertisements.
+		- ISO 9000 does not automatically lead to a continuous process improvement
 - *Requirements Engineering*
-  - Requirements
-    - descriptions of what the systems should do
-    - services that it provides and the constraints on its operation
-    - reflect the needs of the customers
-  - The process of finding out, analysing, documenting and checking the services and constraints of a system is called requirements engineering.
-  - Types of Requirements
-    - User requirements
-      - high level abstract requirements
-      - statements in natural language
-      - services the system is expected to provide to system users
-      - and constraints under which it must operate
-    - System requirements
-      - detailed description of what the systems should do
-      - system software's functions, services and operational constraints
-    - Functional requirements
-      - statements of service the system should provide
-      - how the system should react to particular inputs
-      - how the system should behave in particular situations
-    - Non Functional requirements
-      - constraints on the services and functions offered by the system. eg : time constraints, constraints on the development process and constraints imposed on standards.
-      - apply to the system as a whole rather than individual system services
-  - Requirements engineering activities result in
-    - the specification of the software's operational characteristics (function, data and behaviour),
-    - indicate software's interface with other system elements and,
-    - establish constraints that the software must meet.
-  - (Taken from Module 2 studoob pdf)
+	- Requirements
+		- descriptions of what the systems should do
+		- services that it provides
+		- reflect the needs of the customers
+		- the constraints on its operation
+	- The process of finding out, analysing, documenting and checking the services and constraints of a system is called requirements engineering.
+	- Types of Requirements
+		- source : studoob and ktuassist
+		- User requirements
+			- high level abstract requirements
+			- statements in natural language
+			- services the system is expected to provide to system users
+			- and constraints under which it must operate
+			- Written for clients
+		- System requirements
+			- detailed description of what the systems should do
+			- system software's functions, services and operational constraints
+			- Written as a contract between client and contractor
+		- Software specification
+			- A detailed software description
+			- serves as a basis for design and development
+			- Written for developers
+		- Functional requirements
+			- statements of service the system should provide
+			- how the system should react to particular inputs
+			- how the system should behave in particular situations
+		- Non Functional requirements
+			- constraints on the services and functions offered by the system. eg : time constraints, constraints on the development process and constraints imposed on standards.
+			- apply to the system as a whole rather than individual system services
+	- Requirements engineering activities result in
+		- the specification of the software's operational characteristics (function, data and behaviour),
+		- indicate software's interface with other system elements and,
+		- establish constraints that the software must meet.
+	- (Taken from Module 2 studoob pdf and ktuassist)
+- Requirements Engineering Process
+	- source : ktuassist note
+	- Process used to discover, analyse and validate requirements
+	- RE processes are
+		- Feasibility Study
+			- An estimate made of whether the users needs can be satisfied by the current software technologies
+			- Whether the proposed project is feasible in a business view point
+			- This study should be cheap and quick
+		- Requirements elicitation and analysis
+		- Requirements specification
+		- Requirements validation
 - *Requirement Analysis*
-  - It is a SE task that bridges the gap between system level requirements engineering and software design.
-  - Requirements analysis allows the software engineer to
-    - refine the software allocation and,
-    - refine the build models of the data,
-    - refine the functional, and behavioural domains that will be treated by the software.
-  - Requirements analysis allow the software engineer to represent information, function and behaviour in a way that it can be easily translated into data, architectural, interface and component level designs.
-  - (Taken from Module 2 studoob pdf)
+	- It is a SE task that bridges the gap between system level requirements engineering and software design.
+	- Requirements analysis allows the software engineer to
+		- refine the software allocation and,
+		- refine the build models of the data,
+		- refine the functional, and behavioural domains that will be treated by the software.
+	- Requirements analysis allow the software engineer to represent information, function and behaviour in a way that it can be easily translated into data, architectural, interface and component level designs.
+	- (Taken from Module 2 studoob pdf)

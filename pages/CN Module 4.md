@@ -159,11 +159,11 @@
 			  |  item | Some possibility  |
 			  |---|---|
 			  |  Service offered |  Connection oriented or connectionless |
-			  | Protocols  |   |
+			  | Protocols  | IP, ATM  |
 			  | Addressing  | Flat(802) vs Hierarchical (IP)  |
-			  | Multicasting | |
-			  | Packet Size | |
-			  |Quality of service | |
+			  | Multicasting | Present or absent |
+			  | Packet Size | Every network has its own maximum |
+			  |Quality of service | Present or absent |
 	- How Networks can be connected
 		- Essential difference between using a router and switch is that
 			- with a router, the packet is extracted from the frame and the network address in the packet is used for deciding where to send it.

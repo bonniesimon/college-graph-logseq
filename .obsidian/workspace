@@ -7,8 +7,11 @@
         "id": "98b7031c79504050",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "pages/CN Module 3.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "pages/CN Module 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,14 +88,15 @@
   },
   "active": "98b7031c79504050",
   "lastOpenFiles": [
-    "journals/2021_08_28.md",
-    "journals/2021_05_23.md",
+    "pages/CN Module 3.md",
+    "pages/CS334 Network Programming Lab.md",
+    "pages/CS368 Web Technologies.md",
+    "pages/DAA Module 3.md",
     "pages/DP-3T.md",
-    "pages/CN Module 4.md",
-    "pages/SEPM Module 2.md",
-    "pages/SEPM Module 1.md",
-    "pages/CN module 6.md",
-    "pages/CS306 Computer Networks.md",
-    "pages/contents.md"
+    "pages/Leetcode 5 Longest Palindromic Substring.md",
+    "pages/KeyValue Interview Prep.md",
+    "journals/2021_08_28.md",
+    "pages/CN Module 5.md",
+    "pages/CommVault Meeting with Alumni 20Aug21.md"
   ]
 }

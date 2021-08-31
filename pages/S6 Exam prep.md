@@ -77,12 +77,23 @@
 	- Module 2
 		- Remaining
 			- The transmitter algorithm
+	- Module 3
+		- Remaining
+			- VC vs Datagram Subnets
+			- OSPF header format
+			- creating routing table using link state and distance vector methods
+	- Module 4
+		- Remaining
+			- Concatenated virtual circuits, connectionless internetworking, tunneling, internetwork routing, fragmentation.
+			- ~~IP Classful addressing~~
+			- Find subnet mask, classless addressing
+			- Comparison between classful and classless addressing
 	- Module 5
 		- Log
 			- 30jul Started mod 5. Studied ICMP
 			- 1Aug Started IPv6
 		- Remaining
-			- Fixed header of IPv6
+			- ~~Fixed header of IPv6~~
 	- Module 6
 		- Log
 			- 26Aug Started mod 6. TCP last topic remaining.
@@ -90,7 +101,12 @@
 		- Remaining
 			- Silly window syndrome (found in question paper)
 			- Circular buffer working (found in question paper)
+			- ~~WWW~~
+			- Static web page vs dynamic
 # SEPM
+	- Module 2
+		- Remaining
+			- From software requirements engineering process
 	- Module 5
 		- Log
 			- 1 Aug Started mod 5 Finished maintenance.

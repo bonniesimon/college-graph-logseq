@@ -34,7 +34,7 @@
 		- Mapping Logical to Physical address (ARP)
 		- Mapping Physical to Logical address (RARP)
 		- How does IP address get mapped onto data link layer addresses such as Ethernet?
-			- Answer in text pdf page no: 491 & also in ma'ams pdf.
+			- Answer in tanenbaum text pdf page no: 491 & also in ma'ams pdf.
 			- We can use a configuration file that maps the IP addresses onto Ethernet addresses.
 			- or we can use the following method.
 			- Basically what happens is that say machine A wants to communicate with machine B.
@@ -69,6 +69,7 @@
 		- Solution : Bootstrap protocol, BOOTP
 			- uses UDP messages, which are forwarded over routers
 	- ## BOOTP
+		- Uses UDP messages, which are forwarded over routers
 		- The protocol allows diskless machines to discover their IP address and the address of the server host.
 		- Events in BOOTP
 			- The client broadcasts its MAC address asking for help in booting.
@@ -104,8 +105,8 @@
 	- ## IGMP (Internet Group Management Protocol)
 		- source : behrouz
 		- IGMP is a communication protocol used by hosts and adjacent routers for multicasting communication with IP networks and uses the resources efficiently to transmit messages/data packets.
-		- Multicasting is implemented using special multicast routers that are able to route multicast packets
 		- It is a protocol that manages Group membership
+		- Multicasting is implemented using special multicast routers that are able to route multicast packets
 		- IGMP gives multicast routers information about membership status of hosts(routers) connected to the network.
 			- A multicast router will receive thousands of multicast packets every day for different groups.
 			- If a router has no knowledge about the membership status of the hosts, then it must broadcast all these packets.
@@ -134,14 +135,14 @@
 			- Multiaccess networks without broadcasting (Switched WAN's)
 		- To handle routing effectively, OFPF divides an AS into areas.
 			- Each area is a collection of networks, hosts and routers all within an AS.
-			- There is a special are in AS called _backbone_
+			- There is a special area in AS called _backbone_
 			- All areas inside the AS should be connected to the backbone.
 			- ? Learn graph representation of this
 			- ? Learn message types
 		-
 	- ## BGP (Border Gateway Protocol)
 		- BGP is an implementation of path vector routing
-		- Used between different ASes; Intradomain. So therefore we have to keep in mind different policies. Eg: A information from Pentagon must not be put through a route through Iraq.
+		- Used between different ASes; Interdomain. So therefore we have to keep in mind different policies. Eg: A information from Pentagon must not be put through a route through Iraq.
 		- We can divide AS into 3 categories
 			- Stub AS
 				- Have only one connection to another AS.
@@ -178,6 +179,6 @@
 	- IPv6 datagram diagram in ma'am's pdf
 	- IPv6 address is 4 times larger than IPv4
 		- the header of IPv6 is 2 times larger than the IPv4
-	- IPv6 headers have on Fixed header and zero or more optional(Extension) headers.
+	- IPv6 headers have one Fixed header and zero or more optional(Extension) headers.
 		- All the necessary information that is essential for a router is kept in the fixed header
 		- The Extension headers contain optional information that helps routers understand how to handle a packet/flow.
