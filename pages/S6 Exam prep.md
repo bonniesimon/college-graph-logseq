@@ -73,10 +73,12 @@
 			- 05Aug Finished Issues with Code generation.
 		- Remaining
 			- From code generation algorithm in sir's pdf.
-## CN
+- ## CN
+  collapsed:: true
 	- Module 2
 		- Remaining
 			- The transmitter algorithm
+			- Router, switch, etc
 	- Module 3
 		- Remaining
 			- VC vs Datagram Subnets
@@ -107,6 +109,15 @@
 	- Module 2
 		- Remaining
 			- From software requirements engineering process
+			- prototyping
+	- Module 3
+		- Log
+			- 1Sep Software scope, Cost estimation, cocomo, staffing, software design
+		- Remaining
+			- Project planning (till software scope)
+	- Module 4
+		- Remaining
+			- White box vs black box, black box methods
 	- Module 5
 		- Log
 			- 1 Aug Started mod 5 Finished maintenance.
@@ -114,3 +125,5 @@
 		- Log
 			- 26Aug Started mod 6. Software Configuration management
 			- 27Aug User Interface, Just started CASE
+		- Remaining
+			- CASE Tools!!

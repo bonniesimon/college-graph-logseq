@@ -3,12 +3,10 @@
 	- (?) - doubt
 - *Introduction to Software Engineering*
 	- Software engineering :
-	  collapsed:: true
 		- Application of systematic, disciplined, quantifiable approach to
 		- development, operation and maintenance of software
 		- and the study of these approaches
 	- Engineering Approach
-	  collapsed:: true
 		- Requirement analysis and definition
 		- System design
 		- Program desing
@@ -19,7 +17,6 @@
 		- system delivery
 		- maintenance
 	- Need for Software Engineering
-	  collapsed:: true
 		- More and more people and society rely on advanced software systems.
 		- So producing reliable and trustworthy systems economically and quickly is a must.
 		- Issues
@@ -32,7 +29,6 @@
 				- Malicious users cannot attack our software.
 				- Information is secure from abuse.
 	- Goals of software Engineering
-	  collapsed:: true
 		- To increase software productivity and quality
 		- To effectively control software schedule and planning
 		- To reduce the cost of software development.
@@ -40,14 +36,12 @@
 		- To improve current practices
 		- To support engineering activities in a systematic and efficient manner.
 	- Essential Attributes of good software
-	  collapsed:: true
 		- Maintainability
 		- Dependability and Security
 		- Efficiency
 		- Acceptability
 	- (notes of above section from Module 1 Studoob pdf & Module 1 pdf from miss)
 - *Scopes of Software Engineering*
-  collapsed:: true
 	- Historic Aspects
 		- Numerous study's show that software is often :
 			- delivered late
@@ -107,10 +101,10 @@
 			- A system where tools are integrated such that the information created by one tool can be used by another tool such that they support the software development is called _Computer Aided Software Engineering (CASE)_.
 	- (Taken from Pressman textbook pg.  20)
 - *Software Process Models*
+  collapsed:: true
 	- Also called life cycle models.
 	- Types
 		- Classical Waterfall model
-		  collapsed:: true
 			- Obvious way to develop software. Not practical.
 			- It is a plan driven process. Everything is planned and scheduled in advance.
 			- After one phase complete, we go to the next one. We don't return to the previous one.

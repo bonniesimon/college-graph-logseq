@@ -1,6 +1,27 @@
 - [[SEPM Module 4]]
 # Syllabus
 	- Planning phase – project planning objective, software scope, empirical estimation models- COCOMO, single variable model, staffing and personal planning. Design phase – design process, principles, concepts, effective modular design, top down, bottom up strategies, stepwise refinement
+- Software Scope
+	- It is the first step in project planning
+	- It should have function and performance details which is unambiguous and understandable at management and technical levels
+	- Software scope
+		- describes the functions and feature that are delivered to the end user,
+		- the data that are input and output,
+		- the content presented to users as a consequence of using the software,
+		- and the performance constraints and reliability that bound the systems.
+	- Scope defined using 2 techniques
+		- A narrative description of software scope is developed after communication with stakeholders
+		- A set of use cases developed by the end users.
+	- Once scope is understood, the dev team checks the viability of the project.
+	- Project scope addresses the following
+		- Function
+			- The tasks that the software is expected to perform
+		- Performance
+			- Processing and response time required
+		- Constraints
+			- Limits placed over software like memory restriction
+		- Interfaces
+			- The interaction of the user with the software.
 # Empirical Estimation Models
 	- Size Estimation
 		- Estimation of size is a critical and difficult part of project planning.
@@ -11,7 +32,7 @@
 			- It measures functionality from the users point of view.
 			- It deals with the functionality being delivered and not the lines of code.
 			- It is independent on the technology used to deliver functions.
-	- Coast Estimation
+	- Cost Estimation
 		- Approximate judgement of the costs for a project. It should be done throughout the entire life cycle.
 		- Why we need cost estimation?
 			- To determine how much effort and time the software project needs.
@@ -79,4 +100,85 @@
 			- Basic COCOMO
 			- Intermediate COCOMO
 			- Complete COCOMO
-			-
+# Software Design
+	- What constitutes a well defined design class
+		- Complete
+			- Contains the complete encapsulation of all data and methods that exist for the class
+		- Sufficient
+			- Contains only those methods that are sufficient to achieve the goal of the class
+		- Primitiveness
+			- Each method focusses on accomplishing one service of the class
+		- High Cohesion
+			- The class has a small, focused set of responsibilities
+		- Low Coupling
+			- Dependence of classes is kept at a minimum
+	- ## Modularity
+		- A modular system consist of well defined manageable units with well defined interfaces among them
+		- Modular design should
+			- Reduce complexity
+			- Facilitate change
+			- Result in easier implementation
+		- Functional interdependence is achieved by developing modules with single minded function
+		- Properties
+			- Well defined subsytem
+			- well defined purpose
+			- can be separately compiled and stored
+			- can use other modules
+			- should be easier to use than to build
+			- simple from outside than the inside
+		- Modularity
+			- enhances design clarity
+			- which eases implementation,
+			- debugging,
+			- testing,
+			- documenting,
+			- maintenance
+		- Module Coupling
+			- Coupling is the measure of interdependence between modules
+			- Achieved by
+				- controlling number of parameters passed among modules
+				- avoid passing undesirable data to calling module
+				- maintain parent child relationship between calling and called modules
+				- pass data not control information
+			- Types of coupling
+				- Data coupling - shares data
+				- stamp coupling - shares data structures
+				- control coupling - shares control information (like flags)
+				- common coupling - has shared data
+				- content coupling - module A can change data of module B
+		- Module Cohesion
+			- Cohesion is a measure of the degree to which the elements of a module are functionally related.
+			- Types of module cohesion
+				- Functional cohesion
+					- A and B are part of a single functional task
+				- Sequential cohesion
+					- Outputs of A are the inputs of B
+				- Procedural cohesion
+					- A and B perform different tasks but they have to be combined because there is a specific order in which the tasks are to be completed.
+				- Temporal cohesion
+					- tasks that are executed in the same time span
+				- Logical cohesion
+					- A and B are together because they belong to the same logical class of functions
+				- Coincidental cohesion
+					- little to no relationship to one another.
+		- Relationship between cohesion and coupling
+			- If software is not properly modularized, then a trivial enhancement or change will result in the death of the project.
+			- Software should be modularized with a goal of high cohesion and low coupling.
+	- ## Design Strategy
+		- A good system design strategy is to organize the program modules in such a way that are easy to develop and later to change.
+		- Preexisting code should be understood and broken down if needed.
+		- New code should support the logic of the system
+		- Bottom up design
+			- Modules are collected together in the form of libraries
+			- Libraries are then combined together.
+			- Combining should be done carefully as if the assumptions go wrong, we then should redesign from the lower levels
+		- Top Down Design
+			- Starts by identifying the major modules of the systems.
+			- Decompose those into their lower level modules and iterating until the desired level of details is achieved.
+			- This is know step wise refinement.
+			- Suitable if the specifications are clear and development is from scratch.
+			- Disadvantage: can only be tested after all submodules are coded.
+		- Hybrid Approach
+			- Even though top down is more suited, some bottom up approach is desirable.
+			- Bottom up permits common sub modules
+			- reuse of modules

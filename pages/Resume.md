@@ -95,6 +95,11 @@
 				- Communicated with stakeholders on progress update, collected suggestions and developed the landing page of Canvas, a blockchain based content monetization platform.
 				- Build using React along with external libraries for complex UI components
 				- Developed in 57% less time to enable the stakeholders to launch their product on due.
+		- Learning Paths | MERN Developer Intern | Remote | July 2021 - Present
+			- Learning paths is a tool to organize your thoughts and to nurture & grow your personal knowledge management
+			- Implementing a public page for each user to showcase their personal knowledge garden using Gatsby JS
+			- Remodeled existing UI by implementing modern UI components
+			- Repaired existing UI bugs
 		- IC MACE | Frontend Developer | MACE Kothamangalam | Nov 2019 - March 2020
 			- Developed a website for an international conference
 		- X-Culture

@@ -42,6 +42,10 @@
 				- Objective : Discover Algorithmic and logical errors in the code.
 				- Each member takes a test case and manually traces the execution of the code.
 				- Discuss the finding from the walkthrough with the coder who wrote the code.
+				- Guideline for walkthrough
+					- The team performing the walkthrough should not be too large or too small
+					- Walkthrough is about finding errors and not about how to fix them
+					- Manager should not be present at the walkthrough meeting.
 			- Code Inspection
 				- In contrast to code walkthrough, the aim of code inspection to detect some common types of error due to oversight and improper programming.
 				- Adherence to coding standards are also checked.

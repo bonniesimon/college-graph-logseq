@@ -298,4 +298,62 @@
 	- Resolutions
 		- (read in pdf)
 ## File Transfer Protocol
-	-
+- SMTP (Simple Mail Transfer Protocol)
+	- SMTP is used to deliver mails to particular destination over the internet
+	- SMTP is referred to transport outgoing mails to a particular destination.
+	- Email is delivered by having the source machine establish a TCP connection to port 25 of the destination machine.
+	- The actual mail transfer requires MTA
+		- It is responsible for transferring and outgoing an email message from sender to receiver.
+	- Protocol that defines the MTA client and server in the internet is called SMTP.
+- For receiving mail we use
+	- POP (Post Office Protocol)
+		- not convenient when users use different machines to read email from server
+		- emails have to be downloaded to different machines
+	- IMAP (Internet Message Access Protocol)
+		- Resolves the issues of POP by keeping the emails at the servers.
+- SNMP (Simple Network Management Protocol)
+	- SNMP is a framework to manage devices on the internet using TCP/IP
+	- It has the task of managing or monitoring a group of hosts or devices on a computer network.
+		- Devices supported are routers, switches, servers, workstations, printers, modem, etc.
+		- Can monitor devices made by different manufacturers installed on different physical networks.
+	- It provides fundamental operations for monitoring and maintaining an internet.
+	- SNMP uses the concept of Manger and Agent
+		- Manager, usually a host, controls and monitors a set of agents usually routers
+		- Manager is a host that runs the SNMP client program
+		- Agent is a host or router that runs the SNMP server program.
+		- Agent keeps its performance information in a database
+		- Manager has access to that database
+	- Management in SNMP done using three ideas
+		- Manager checks an agent by requesting the information about the agent
+		- Manager forces a agent to do a task by resetting the values in the database
+		- Agent contributes to the management process by warning the manager of unusual situation
+	- SNMP requires the use of two protocols
+		- SMI (Structure of Management Information)
+		- MIB (Management Information Base)
+	- Role of SMNP
+		- defines the format of packet sent from manager to agent
+		- interprets the result and creates statistics
+		- responsible for reading and changing values
+	- Role of SMI
+		- SMI defines rules for
+			- naming objects
+			- defining types
+			- encoding of each type
+	- Role of MIB
+		- define number of objects
+		- name these objects according to SMI
+		- provide appropriate type to the named object
+	- SNMP messages
+		- GetRequest
+			- SNMP manager sends this to request data from SNMP agent
+			- SNMP agent replies with response
+		- GetNextReuqest
+			- Used to check all the information in the SNMP agent.
+			- Can be used to see if any remaining data is there.
+			- Kinda like using p->next == null in a linked list.
+		- GetBulkRequest
+			- Get a large data once by the SNMP manager from the SNMP agent.
+		- Response
+		- SetRequest
+			- Used to set value of object by manager.
+-
