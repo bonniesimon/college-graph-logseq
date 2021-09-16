@@ -1,0 +1,4 @@
+- NFT idea : NFT but for certificates.
+	- we can easily identify a fraud certificate from a real one.
+	- [Paper](https://arxiv.org/pdf/2105.07447.pdf) on NFT
+	- Another [Paper](https://core.ac.uk/download/pdf/301384284.pdf) on NFT

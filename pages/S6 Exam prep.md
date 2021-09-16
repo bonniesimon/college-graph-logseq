@@ -106,6 +106,7 @@
 			- ~~WWW~~
 			- Static web page vs dynamic
 # SEPM
+collapsed:: true
 	- Module 2
 		- Remaining
 			- From software requirements engineering process
@@ -127,3 +128,13 @@
 			- 27Aug User Interface, Just started CASE
 		- Remaining
 			- CASE Tools!!
+# POM
+	- Module 2
+		- Remaining
+			- Revise the Theories
+	- Module 3
+		- Remaining
+			- Comparison between different types of planning
+	- Module 5
+		- Log
+			- Decentralization, Delegation, Cultural organization, What are the sources of cultural organization?, Effective organization(from ktustudents pdf).

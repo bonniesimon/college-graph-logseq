@@ -2,6 +2,10 @@
 	- ? : words or concepts I've doubt in.
 		- ?this_word means idk what the work means
 		- ? this is a sentence and a half. means that its a whole sentence that idk about.
+- Contact tracing is a major part in reducing the spread of covid.
+- ![image.png](../assets/image_1631361818564_0.png){:height 390, :width 370}
+- Digital proximity tracing systems based on Bluetooth Low Energy (BLE) handshakes between personal smartphones are being widely considered as a tool to help health authorities and government control the spread of the global SARS-CoV-2 outbreak.
+- Many countries desire a system which require the infected user be diagnosed by a recognised medical authority before the contact tracing process can begin. This is in contrast to systems that reply on self reporting in which any user can report that they are infected.
 ## Executive Summary
 	- DP-3T is a system for secure and privacy-preserving proximity tracking at large scale.
 	- DP-3T provides a technological foundation to help slow the spread of SARS-CoV 2.
@@ -16,9 +20,15 @@
 		- Time consuming
 		- Require workers
 		- Interview response based on memory of the affected person, would not be reliable.
+		- The below figure shows the current contact tracing system.
+		- ![image.png](../assets/image_1631362145559_0.png)
 ## Purpose
 	- Alerts you when you've come near contact of a affected person.
 	- Doesn't reveal the identity of the contacted person.
+## Usability Goals
+	- Ease of use for health authorities
+	- Ease of use for users
+	- The authorisation system should be easy to implement and operate
 ## DP3T
 	- Three different protocols are specified to support different tradeoff's between exposure detection and tracing.
 	- Developers can choose the tradeoff they want while using a common framework.

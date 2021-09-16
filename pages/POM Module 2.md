@@ -1,0 +1,6 @@
+- Taylor's Principles of Scientific management
+- Henri Fayol's contributions to management
+- Gilbreths Contribution to management
+- Elton Mayo's Contributions - Human relations approach
+- Mcgregor's theory x and theory y
+- Ouchi's Theory Z

@@ -1,4 +1,5 @@
 - [[POM Module 1]]
+- [[POM Module 2]]
 - [[POM Module 4]]
 - [[Series 1 Exam Phase 2]]
 - Tips for exam

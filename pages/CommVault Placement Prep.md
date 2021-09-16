@@ -1,3 +1,6 @@
 - Aptitude test asked [questions](https://q4interview.com/commvault/written-round-questions-with-answer/3)
 - File system implementation [code](https://leetcode.libaoj.in/design-in-memory-file-system.html)
 - Another c++ file system [code](https://grandyang.com/leetcode/588/)
+- Another cpp file system [code](https://shareablecode.com/snippets/design-file-system-c-solution-leetcode-PUfa-sZdx)
+- [Tips](https://www.geeksforgeeks.org/commvault-interview-experience-for-sde-nit-jamshedpur/) for the interview
+- [Tries](https://www.journaldev.com/36507/trie-data-structure-in-c-plus-plus) data structure for implementing file systems

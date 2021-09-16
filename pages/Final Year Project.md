@@ -1,3 +1,5 @@
 - Ideas
 	- Travelling salesman problem using quantum computing
 	- DP-T3
+- [[Project Meeting 10 sep 2021]]
+- [[Project Meeting 14 Sep 2021]]
