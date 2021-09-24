@@ -1,9 +1,14 @@
+title:: Seminar Paper : DP-3T
+
 - Legend
 	- ? : words or concepts I've doubt in.
 		- ?this_word means idk what the work means
 		- ? this is a sentence and a half. means that its a whole sentence that idk about.
+## Decentralized Privacy-Preserving Proximity Tracing
+- Due to the lack of a vaccine or any hope for one in such a short notice, the only way to deal with the damage caused by Covid-19 was to reduce the spread of the virus.
+- Due to the nature of the Virus, reducing the spread was much difficult. A person could spread the virus even before symptoms appeared. This causes the virus to spread in an exponential fashion.
 - Contact tracing is a major part in reducing the spread of covid.
-- ![image.png](../assets/image_1631361818564_0.png){:height 390, :width 370}
+- ![image.png](../assets/image_1631361818564_0.png){:height 501, :width 477}
 - Digital proximity tracing systems based on Bluetooth Low Energy (BLE) handshakes between personal smartphones are being widely considered as a tool to help health authorities and government control the spread of the global SARS-CoV-2 outbreak.
 - Many countries desire a system which require the infected user be diagnosed by a recognised medical authority before the contact tracing process can begin. This is in contrast to systems that reply on self reporting in which any user can report that they are infected.
 ## Executive Summary
@@ -20,9 +25,11 @@
 		- Time consuming
 		- Require workers
 		- Interview response based on memory of the affected person, would not be reliable.
+		- Privacy of the patient is violated to obtain information about the contact of the patient.
 		- The below figure shows the current contact tracing system.
 		- ![image.png](../assets/image_1631362145559_0.png)
 ## Purpose
+	- Purpose of DP-3T is not to identify affected pupil, but to alert the people who have been in contact with the affected person.
 	- Alerts you when you've come near contact of a affected person.
 	- Doesn't reveal the identity of the contacted person.
 ## Usability Goals
@@ -34,7 +41,7 @@
 	- Developers can choose the tradeoff they want while using a common framework.
 	- Working
 		- Each phone locally generates a frequently changing ephemeral identifier (EphIDs)
-		- These EphIDs are then broadcasted via Bluetooth Low Energy (BLE) ?beacons.
+		- These EphIDs are then broadcasted via Bluetooth Low Energy (BLE) beacons.
 			- BLE is a low power wireless communication technology that can be used over a short distance to enable smart devices to communicate.
 			- BLE is a relatively new technology with a focus on low energy.
 		- Other phones observe these beacons and store them with a time indication and measurements to estimate exposure.
@@ -55,7 +62,7 @@
 		- Unlinkable decentralized proximity tracing
 		- Hybrid decentralized proximity tracing
 ## Low-cost decentralized proximity tracing
-	- This is a low cost protocol with good privacy measures but very small bandwidth requirements.
+	- This is a low cost protocol with good privacy measures along with very small bandwidth requirements.
 	- Setup
 		- Initial seed generation.
 		- Let t be the current day in UTC days.
@@ -93,3 +100,7 @@
 ## Unlinkable decentralized proximity tracing
 	- It is a variant of the low cost design
 	- It offers better privacy properties at the cost of increased bandwidth.
+	- Requires more bandwidth and storage than the low cost design.
+## Hybrid decentralized proximity tracing
+	- Offers better protection against linking of ephemeral identifiers of covid positive users.
+	- But protection against tracking is not that good.

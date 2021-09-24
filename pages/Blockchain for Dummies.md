@@ -3,6 +3,7 @@
 - Blockchain as the name suggests is a chain of blocks. Each block contains data.
 - Each block is tied to some other blocks. Each block is reliant on the block before it.
 - In case of bitcoin, the data that the block encapsulates is the series of bitcoin transactions that have taken place in a certain timeframe.
+- So basically blockchain is a immutable shared ledger.
 - All blocks constitute Bitcoin's blockchain and have witnessed all its transactions till its creation.
 - History
 	- Blockchain was invented as a response to the inefficiencies of the centralized banking system.
