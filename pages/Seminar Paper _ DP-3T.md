@@ -101,6 +101,28 @@ title:: Seminar Paper : DP-3T
 	- It is a variant of the low cost design
 	- It offers better privacy properties at the cost of increased bandwidth.
 	- Requires more bandwidth and storage than the low cost design.
+	- This design does not disseminate a list containing the seeds of users who have reported a positive diagnosis. Instead the EphIDs of the Covid-19 positive users are hashed and stored in a Cuckoo filter, which is then distributed to other users.
+	- Advantages
+		- Prevents adversaries from linking the EphID of the posittive users
+		- Also it allows the user to redact identifiers corresponding to sensitive locations, times or periods in which the user is certain they haven't been in contact with other people.
+	- Local Storage of observed EphIDs
+		- The hashed string H(EphID || i) where H is a cryptographic hash function and EphID is the identifier of the beacon and `i` is the epoch in which the beacon is received. In low cost design, receiving phone stores the raw EphID.
+		- `i` is used in the hash to prevent replaying an EphID outside the epoch.
+	- Decentralized proximity tracing
+		- Unlike the low cost design, before uploading to the backend, the user has the option to redact identifiers.
+		- Then the phone uploads the set {(`i`, `seed<sub>i</sub>`)}. Requiring `seedi` rather than EphID ensures that malicious users cannot claim somebody else's EphID as their own.
+		- Periodically the backend creates a new Cuckoo filter `F` and for each pair (`i`, `seedi`) uploaded by the Covid-19 patient it inserts H(LEFTMOST128(H(seedi)) || i) into the Cuckoo filter F
+		- The backend publishes the filter and all smartphones download it.
+		- Each smartphone uses the filter F to check if in the past it has observd any of the EphIDs reported by the Covid-19 positive user.
+		- The use of Cuckoo filter hides the set of ephemeral identifiers of Covid-19 positive.
 ## Hybrid decentralized proximity tracing
 	- Offers better protection against linking of ephemeral identifiers of covid positive users.
 	- But protection against tracking is not that good.
+	- Generates a new seed for a duration called a window.
+	- Depending on the length of the window, offers much better protection against linking EphIDs of positive users than the low cost design.
+	- It also allows the user to redact certain identifiers.
+	- Generating EphIDs
+		- We group epochs L into windows w. w needs to be a integer multiple of L.
+		- For each time window w, a ned seedw is generated.
+		- For each seedw, a set of EphIDs are generated.
+	- This design requires more bandwidth and storage than the low-cost design, but less than the unlinkable design.

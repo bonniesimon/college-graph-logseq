@@ -4,7 +4,16 @@
 - [[Seminar Paper : DP-3T]]
 	- [Research Paper on DP-3T](https://arxiv.org/abs/2005.12273)
 	- [DP3T All Research Documents](https://github.com/DP-3T/documents/blob/master/Security%20analysis/Privacy%20and%20Security%20Attacks%20on%20Digital%20Proximity%20Tracing%20Systems.pdf)
-- https://ieeexplore.ieee.org/document/9252092/references#references
-- http://sites.computer.org/debull/A20june/p36.pdf
-- https://scholar.google.com/scholar?as_q=Decentralized+privacy-preserving+proximity+tracing&as_occt=title&hl=en&as_sdt=0%2C31
-- https://ui.adsabs.harvard.edu/abs/2020arXiv200512273T/abstract
+	- https://ieeexplore.ieee.org/document/9252092/references#references
+	- http://sites.computer.org/debull/A20june/p36.pdf
+	- https://scholar.google.com/scholar?as_q=Decentralized+privacy-preserving+proximity+tracing&as_occt=title&hl=en&as_sdt=0%2C31
+	- https://ui.adsabs.harvard.edu/abs/2020arXiv200512273T/abstract
+	- DP-3T is referred in these paper
+		- [DP-3T used in the reference](https://www.computer.org/csdl/proceedings-article/cw/2020/649700a228/1olHzKgcGpG)
+- I might need to pick another paper. Here are some I've shortlisted.
+	- [MCFsyn: A Multi-Party Set Reconciliation Protocol With the Marked Cuckoo Filter](https://www.computer.org/csdl/journal/td/2021/11/09409946/1sYYBhs8XLi)
+	- [Paper about public attitude towards covid tracing apps](https://onlinelibrary.wiley.com/doi/10.1111/hex.13179)
+	- [COVID-19 digital contact tracing applications and techniques: A review post initial deployments](COVID-19 digital contact tracing applications and techniques: A review post initial deployments)
+	- [Privacy Preserving Location Data Publishing: A Machine Learning Approach](https://www.computer.org/csdl/journal/tk/2021/09/08951246/1goL2LUtMHu)
+		- This seems like a paper that I can learn and it is interesting.
+	- [Privacy-Preserving Task Recommendation Services for Crowdsourcing](https://www.computer.org/csdl/journal/sc/2021/01/08253516/13rRUwInvpv)
