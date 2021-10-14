@@ -1,0 +1,3 @@
+- [Leetcode Question Link](https://leetcode.com/problems/find-the-duplicate-number/ )
+- There is a better approach than using hash table.
+- Slow and fast pointer approach or [[Floyd Cycle Detection or Slow & Fast pointer]]

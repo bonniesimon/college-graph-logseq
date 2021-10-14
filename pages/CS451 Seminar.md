@@ -1,3 +1,4 @@
+- [[OWebSync: Seamless Synchronization of Distributed Web Clients]]
 - [Guideline for seminar](file:///C:/Other%20Stuff/Study%20Materials/Semester%206/Seminar%20Final%20Year/Seminar%20Guidelines.pdf)
 - [How to prepare an abstract](file:///C:/Other%20Stuff/Study%20Materials/Semester%206/Seminar%20Final%20Year/How%20to%20prepare%20abstract%20for%20seminar.pdf)
 - I'm gonna choose DP-3T
@@ -17,3 +18,13 @@
 	- [Privacy Preserving Location Data Publishing: A Machine Learning Approach](https://www.computer.org/csdl/journal/tk/2021/09/08951246/1goL2LUtMHu)
 		- This seems like a paper that I can learn and it is interesting.
 	- [Privacy-Preserving Task Recommendation Services for Crowdsourcing](https://www.computer.org/csdl/journal/sc/2021/01/08253516/13rRUwInvpv)
+	- [CAPER: Context-Aware Personalized Emoji Recommendation](https://www.computer.org/csdl/journal/tk/2021/09/08960434/1gC2ifnVH0c)
+		- [sci-hub paper link](https://sci-hub.hkvisa.net/10.1109/TKDE.2020.2966971)
+	- [Polynomial Vault: A Secure and Robust Fingerprint based Authentication](https://www.computer.org/csdl/journal/ec/2021/02/08708990/19Q3qjR2MCI)
+		- [scihub paper](https://sci-hub.hkvisa.net/10.1109/TETC.2019.2915288)
+	- [An End-to-End Learning Framework for Video Compression](https://www.computer.org/csdl/journal/tp/2021/10/09072487/1jbiNl1tELS)
+		- [scihub paper](https://sci-hub.hkvisa.net/10.1109/TPAMI.2020.2988453)
+	- [Compressed Indexes for Fast Search of Semantic Data](https://www.computer.org/csdl/journal/tk/2021/09/08959165/1gAnntSjf1u)
+		- [scihub paper](https://sci-hub.hkvisa.net/10.1109/TKDE.2020.2966609)
+	- [OWebSync: Seamless Synchronization of Distributed Web Clients](https://www.computer.org/csdl/journal/td/2021/09/09380486/1s2Gu9mrrnq)
+		- [scihub paper](https://sci-hub.hkvisa.net/10.1109/TPDS.2021.3066276)

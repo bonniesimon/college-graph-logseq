@@ -1,0 +1,9 @@
+- Introduction to CRDTs
+	- Before introduction, I explain why distributed systems are required.
+		- One server - many clients architecture. Many server - many clients architecture.
+- Need and Context
+- Working of Merkle-trees. Uses
+- Working of LWWRegister
+	- working from [this post](https://bartoszsypytkowski.com/the-state-of-a-state-based-crdts/#lastwritewinsregister)
+- ORMap
+- OWebSync Data Model using ORMaps, LWWRegister & Merkle-trees.

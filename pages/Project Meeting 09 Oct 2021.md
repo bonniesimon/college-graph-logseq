@@ -1,0 +1,5 @@
+- Trying to decide between projects
+- Maybe a project on semantic web (web 3.0)
+- Some new ideas
+	- [BeepTrace](https://ieeexplore.ieee.org/document/9203904)
+	- [RF-pen](https://www.computer.org/csdl/journal/tm/2021/11/09099373/1k7oDnJ7NrW)

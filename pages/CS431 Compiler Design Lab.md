@@ -1,0 +1,5 @@
+- Resource collection
+	- https://github.com/beingfranklin/Compiler-Design-Programs/blob/master/Day%201/lexical.c
+	- [left recursion c code](https://gist.github.com/royalvenky/b2f348f23d81c8e257ad)
+	- https://github.com/amrithm98/Compiler-Design-Lab
+	- [agzuniverse - Compiler Design lab S7](https://github.com/agzuniverse/S7_Compiler_Lab)

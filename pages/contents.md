@@ -9,7 +9,8 @@
 ## Previous Papers
 	- [[DBMS]]
 	- [[Operating System]]
-## Semester 6
+- ## Semester 6
+  collapsed:: true
 	- [[CS302 Design and Analysis of Algorithms]]
 	- [[CS306 Computer Networks]]
 	- [[CS308 Software Engineering & Project Management]]
@@ -22,7 +23,8 @@
 	- [[NPTEL Internet of Things]]
 	- Solved [question papers](https://www.ktuassist.in/2019/04/ktu-s6-cse-solved-question-papers.html)
 ## Semester 7
-	- [[Seminar 7th Sem]]
+	- [[CS431 Compiler Design Lab]]
+	- [[CS451 Seminar]]
 ## Semester 8
 	- [[Final Year Project]]
 ## Placement / Interview Prep

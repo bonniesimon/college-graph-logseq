@@ -1,0 +1,12 @@
+- Current Ideas
+	- Blockchain based Identity theft prevention.
+		- Only reveal necessary information at places.
+		- Say you wanna only prove your age, you don't have to reveal other than your DOB.
+	- Lie detection using Facial micro expressions.
+		- [Article](https://www.intechopen.com/chapters/60579)
+		- [Github repo for microexpression recognition](https://github.com/bogireddytejareddy/micro-expression-recognition)
+		- [Online lie detector test machine learning](https://www.wired.com/story/online-lie-detector-test-machine-learning/)
+	- Drowsiness detection and alert
+		- Live footage needs to be reviewed.
+	- Project using Rust
+	- DP-3T
