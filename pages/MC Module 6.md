@@ -1,0 +1,35 @@
+- 5G
+	- Low battery consumption
+	- Better coverage at the edge of the cells
+	- High data rate at the edge of the cells
+	- Better security
+	- Energy efficient and spectral efficient.
+- MIMO
+	- MIMO stands for multiple input and output
+	- It increases that capacity of the channel in radio link by using multiple sending and receiving antennas
+	- One advantage is that more data can be added to the wireless network.
+	- The energy efficiency & spectral efficiency increases. Reliability also increases.
+- Features of 5G
+	- Advanced billing interface
+	- High quality service
+	- Provides virtual private networks.
+	- enhanced and available connection
+- LiFi
+	- Uses LED lights to transmit data wirelessly
+	- Has a much broader transmission spectrum
+	- Uses visible area of the spectrum for transmission while WiFi uses radio waves.
+	- Fixed bandwidth is a disadvantage of WiFi; LiFi can solve this issue.
+	- Data is transferred by varying the intensity of the light. These variations cannot be picked up by the human eye.
+	- It is a much cheaper and faster alternative to WiFi.
+	- Architecture
+		- A high brightness white light is used as source
+		- A silicon photodiode with good response to visible light can be used as the receiver.
+	- Components
+		- Bulb
+		- RF power amplifier
+		- PCB
+		- Enclosure
+	- PCB controls the inputs and outputs of the lamp
+	- RF signals are created by the power amplifier and concentrated on the bulb.
+	- The center of the bulb vaporizes and enters plasma state and start to emit light.
+	- LiFi is 80% more efficient because no interference is there unlike radio waves.

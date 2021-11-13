@@ -14,8 +14,7 @@
 	- [Leetcode Blind List](https://leetcode.com/list/xoqag3yj/) from Thejus
 	- Interview [Handbook](https://techinterviewhandbook.org/algorithms/array)
 		- Contains useful tips for each DS
-			-
-			  #+BEGIN_QUOTE
+			- #+BEGIN_QUOTE
 			  For questions where summation or multiplication of a subarray is involved, pre-computation using hashing or a prefix/suffix sum/product might be useful.
 			  #+END_QUOTE
 		- Has recommended leetcode questions at the end
@@ -34,8 +33,7 @@
 		- Red - Couldn't find the logic. Read the solution. Need to revisit later
 		- Yellow - Found a logic, but not optimum logic. Read the optimum solution. Need to solve it using optimum solution.
 		- Green - Either solved it in the optimum way the first try, or came back to a Red or Yellow and solved it
-	-
-	  | Problem Name | Date | Status |
+	- | Problem Name | Date | Status |
 	  |--------------|------|--------|
 	  |      [[Leetcode 152 Maximum product subarray]]        |   -   |    Red    |
 	  |       [[Leetcode 53 Maximum Subarray]]       |   -   |    Yellow    |
@@ -51,3 +49,5 @@
 	  | [[Leetcode 209 Minimum Size Subarray Sum]] | 25Aug | Green|
 	  | [[Leetcode 238 Product of Array Except Self]] | 29Sep | Yellow |
 	  | [[Leetcode 287 Find the Duplicate Number]] | 07Oct | Yellow |
+	  | [[Leetcode 141 Linked List Cycle]] | 20Oct | Yellow |
+	  | [[Leetcode 70 Climbing Stairs]] | 22Oct | Yellow |

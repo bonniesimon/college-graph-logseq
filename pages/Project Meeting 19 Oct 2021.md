@@ -1,0 +1,1 @@
+- Project Fixed: Schizophrenia using EEG waves

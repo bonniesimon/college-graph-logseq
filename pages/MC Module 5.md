@@ -1,0 +1,7 @@
+- Snooping TCP
+	- One major drawback of ITCP is that it segments a single TCP connection into two TCP connections. This loses the original end to end TCP semantic.
+	- One way to solve this issue is to buffer data close to the mobile host to perform fast retransmissions in case of packet loss.
+	- A good place to buffer in context of mobile computing is the foreign agent.
+	- Foreign agent buffers all packets with destination address.
+	- It then snoops packets in both directions. From foreign agent to mobile host and vis-a-vis.
+	- The reason for buffering packets to the mobile node is to enable the foreign agent to perform retransmission in case of packet loss.

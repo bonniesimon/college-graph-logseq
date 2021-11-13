@@ -1,9 +1,41 @@
-- Introduction to CRDTs
-	- Before introduction, I explain why distributed systems are required.
-		- One server - many clients architecture. Many server - many clients architecture.
-- Need and Context
-- Working of Merkle-trees. Uses
-- Working of LWWRegister
-	- working from [this post](https://bartoszsypytkowski.com/the-state-of-a-state-based-crdts/#lastwritewinsregister)
-- ORMap
-- OWebSync Data Model using ORMaps, LWWRegister & Merkle-trees.
+- Draft 1
+  collapsed:: true
+	- Introduction to CRDTs
+		- Before introduction, I explain why distributed systems are required.
+			- One server - many clients architecture. Many server - many clients architecture.
+	- Need and Context
+	- Working of Merkle-trees. Uses
+	- Working of LWWRegister
+		- working from [this post](https://bartoszsypytkowski.com/the-state-of-a-state-based-crdts/#lastwritewinsregister)
+	- ORMap
+	- OWebSync Data Model using ORMaps, LWWRegister & Merkle-trees.
+- Draft 2
+  collapsed:: true
+	- Introduction
+	- Synchronization
+	- Distributed system and a synchronization example using coordination
+	- Synchronization Frameworks
+	- CvRDTs
+	- OWebSync
+		- State that it uses the Merkle-tree structure with ORMaps and LWWRegister as nodes
+	- Merkle-trees
+	- ORMap
+	- LWWRegisters
+		- They are there to manage the data based on the clock/timestamp
+	- The drawing example in paper
+	- Conclusion
+	-
+- Final Version
+	- Introduction
+	- Synchronization
+	- Distributed System
+	- Context & Need
+	- Synchronization Frameworks
+	- CRDT & Real life implementations
+	- CvRDTs
+	- Join Semi Lattice
+	- OWebSync
+	- Merkle-tree
+	- LWWRegister
+	- ORMap
+	- OWebSync Example

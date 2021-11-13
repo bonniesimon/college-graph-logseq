@@ -1,10 +1,14 @@
 - Ideas
+  collapsed:: true
 	- Travelling salesman problem using quantum computing
 	- DP-T3
-- [[Project Meeting 10 sep 2021]]
-- [[Project Meeting 14 Sep 2021]]
-- [[Project Meeting 17 Sep 2021]]
-- [[Project Meeting 07 Oct 2021]]
-- [[Project Meeting 09 Oct 2021]]
+- [[Schizophrenia Diagnosis using EEG]]
+- Meeting Notes
+	- [[Project Meeting 10 sep 2021]]
+	- [[Project Meeting 14 Sep 2021]]
+	- [[Project Meeting 17 Sep 2021]]
+	- [[Project Meeting 07 Oct 2021]]
+	- [[Project Meeting 09 Oct 2021]]
+	- [[Project Meeting 19 Oct 2021]]
 - Research
 	- [[Blockchain for Dummies]]

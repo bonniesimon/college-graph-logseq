@@ -1,152 +1,152 @@
 - [[MC Module 2]]
 - Syllabus
-  - Introduction to mobile computing,
-  - Middleware and Gateways,
-  - Application and services,
-  - Internet-Ubiquitous networks,
-  - Architecture and three-tier architecture for Mobile Computing,
-  - Design consideration for Mobile Computing.
+	- Introduction to mobile computing,
+	- Middleware and Gateways,
+	- Application and services,
+	- Internet-Ubiquitous networks,
+	- Architecture and three-tier architecture for Mobile Computing,
+	- Design consideration for Mobile Computing.
 - *Internet - the ubiquitous network*
-  - Ubiquitous means everywhere
-  - Only two ubiquitous networks are : telecommunication network and internet network.
-    - Telecommunication uses SS#7 protocol
-    - Internet uses TCP/IP protocol
-  - Packet switched networks like internet can tolerate some delays while real time communication is better provided by telecommunication networks.
-  - Network can be divided into three main segments :
-    - Core
-      - It is the backbone of the network
-      - Innermost part of the network
-      - Core looks at traffic from a bit stream point of view
-      - Primary function : deliver traffic efficiently at the least cost.
-      - Deals with transmission media and transfer points
-    - Edge
-      - Deals with the distribution of the traffic.
-      - Edge looks at traffic from a service point of view.
-      - Managed and owned by ISP's.
-    - Access
-      - Deals with the devices and how they will access the trafic.
-      - Can be either wired or wireless. From a MC standpoint, it is wireless.
-  - Internet is the preferred bearer network for content that can tolerate some delays. (Here bearer implies the thing that will carry the content, i.e internet)
-  - Internet supports many protocols.
-  - For ubiquitous access, web applications are preferred.
-  - Web applications use HTTP and have a request/response model.
-  - Difference between web application and convectional client/server paradigm
-    - In convectional client server paradigm the client handles some business logic.
-    - While in web application the clients only handle the rendering functions. This is handled by the web browsers. Thin clients that don't handle business logic.
+	- Ubiquitous means everywhere
+	- Only two ubiquitous networks are : telecommunication network and internet network.
+		- Telecommunication uses SS#7 protocol
+		- Internet uses TCP/IP protocol
+	- Packet switched networks like internet can tolerate some delays while real time communication is better provided by telecommunication networks.
+	- Network can be divided into three main segments :
+		- Core
+			- It is the backbone of the network
+			- Innermost part of the network
+			- Core looks at traffic from a bit stream point of view
+			- Primary function : deliver traffic efficiently at the least cost.
+			- Deals with transmission media and transfer points
+		- Edge
+			- Deals with the distribution of the traffic.
+			- Edge looks at traffic from a service point of view.
+			- Managed and owned by ISP's.
+		- Access
+			- Deals with the devices and how they will access the trafic.
+			- Can be either wired or wireless. From a MC standpoint, it is wireless.
+	- Internet is the preferred bearer network for content that can tolerate some delays. (Here bearer implies the thing that will carry the content, i.e internet)
+	- Internet supports many protocols.
+	- For ubiquitous access, web applications are preferred.
+	- Web applications use HTTP and have a request/response model.
+	- Difference between web application and convectional client/server paradigm
+		- In convectional client server paradigm the client handles some business logic.
+		- While in web application the clients only handle the rendering functions. This is handled by the web browsers. Thin clients that don't handle business logic.
 - *Architecture for mobile computing *
-  - Mobile computing uses a three tier architecture
-    - ![image.png](C:/Other Stuff/logseq/college/assets/image_1621765464921_0.png)
-    - The three tiers are :
-      - Presentation or User Interface Tier
-        - Deals with device handling and rendering
-        - Include user system interface where user services reside. (user services are sessions, text input, dialog and display management)
-      - Process Management or Application Tier
-        - For application programs or process management
-        - business logic and rules are executed here.
-        - controls transactions and asynchronous queuing to ensure reliable connection.
-        - Capable of accommodating hundreds of users.
-      - Database Management or Data Tier
-        - Used for database access and management
-    - Three tier architecture
-      id:: 60aa2f25-1ecf-4bba-abcd-69e75bc29f5f
-      - is better suited for an effective client-server design
-      - It provides increased _performance_, _flexibility_, _maintainability_, _reusability_ and _scalability_ .
-      - hides complexity of distributed processing from the user
-    - The above reasons have made the three tier architecture the choice for internet applications and net centric information systems.
+	- Mobile computing uses a three tier architecture
+		- ![image.png](C:/Other Stuff/logseq/college/assets/image_1621765464921_0.png){:height 381, :width 534}
+		- The three tiers are :
+			- Presentation or User Interface Tier
+				- Deals with device handling and rendering
+				- Include user system interface where user services reside. (user services are sessions, text input, dialog and display management)
+			- Process Management or Application Tier
+				- For application programs or process management
+				- business logic and rules are executed here.
+				- controls transactions and asynchronous queuing to ensure reliable connection.
+				- Capable of accommodating hundreds of users.
+			- Database Management or Data Tier
+				- Used for database access and management
+		- Three tier architecture
+		  id:: 60aa2f25-1ecf-4bba-abcd-69e75bc29f5f
+			- is better suited for an effective client-server design
+			- It provides increased _performance_, _flexibility_, _maintainability_, _reusability_ and _scalability_ .
+			- hides complexity of distributed processing from the user
+		- The above reasons have made the three tier architecture the choice for internet applications and net centric information systems.
 - *Three Tier Architecture*
-  - Designing a system for mobile computing means that the system will be used through any network, bearer, agent and device
-  - Why it is necessary for mobile computing to have three tier architecture ?
-    - ((60aa2f25-1ecf-4bba-abcd-69e75bc29f5f))
-  - Why is it necessary for mobile computing to use internet?
-    collapsed:: true
-    - A system for mobile computing should be able to be accessed through any network, bearer, device and agent.
-    - To have universal access, it is desirable for the server to be connected to a ubiquitous network like the internet.
-  - *Presentation (Tier 1)*
-    - It is a user facing system of the tiers.
-    - Presentation layer is responsible for presenting information to the user
-    - It is responsible for rendering the information into a screen.
-    - Consists of agent applications and systems that run on client devices and offer all the user interfaces.
-    - The agent software in the client device can be a browser and in some cases an applet running on a browser or a virtual machine.
-    - Functions performed by agent software range from simple tasks like accessing other application through HTTP API, to sophisticated task like real time scales or inventory management.
-    - Some agents work as web scrapers.
-  - *Application(Tier 2)*
-    - Application layer is the engine of a ubiquitous application
-    - It performs business logic of processing user input, obtaining data and making decisions
-    - In some cases, this layer will do transcoding of data for appropriate rendering in the presentation layer
-    - This tier include technologies like CGI's, JAVA, JSP, .NET, PHP, etc.
-    - The application layer is presentation and database independent.
-    - In addition to business logic, the application layer performs some other functions like
-      - decisions on rendering, network management, security, datastore access, etc.
-    - Most of these functions are implemented using middleware software
-    - *Middleware framework* is defined as a layer of software in-between the operating system and the user facing software.
-    - Middlewares include a wide range of software systems like
-      - distributed objects and components
-      - message oriented communication
-      - database connectors
-      - transaction drivers
-    - Middleware can be considered as a software gateway connecting two independent open objects.
-    - Categories of middleware are
-      - *Message oriented middlewares(MOM)*
-        - Middleware framework that connects different applications through asynchronous exchange of messages
-        - it works over a networked environment without knowing the platform or processor the other application is resident on. It simple passes the messages.
-        - MOM is generally synchronous, peer-to-peer and works in a publish/subscribe  fashion.
-        - However MOM also supports request/response message passing too.
-        - MOM is appropriate for event driven applications
-      - *Transaction Processing (TP) Middlewares*
-        - TP middleware provides tools and an environment for developing transaction based distributed applications.
-        - An idea TP system would
-          - input data into the system at the point of information source
-          - output of system at the point of information sink.
-        - Functions of TP
-          - maps numerous clients requests through application service routines to different application tasks
-          - numerous management features like restarting failed processes
-          - dynamic load balancing
-          - ensuring consistency of distributed data
-        - TP optimizes the use of resources by multiplexing many client functions to much smaller set of application service routines. This helps in reducing the response time.
-        - TP is used in
-          - data management
-          - network access
-          - security systems
-          - delivery order processing
-          - airline reservations
-          - customer service
-        - TP is capable of providing services to thousands of clients in a distributed client/server environment.
-        - Java uses MVC which is an example of a TP system.
-      - *Communication Middleware*
-        - Communication Middleware is used to connect one application to another.
-        - eg : connecting one application to another using telnet
-        - they are quite useful in the telecommunication world.
-      - *Distributed Object and Components*
-        - CORBA is an example
-      - *Transcoding Middleware*
-        - Transcoding middleware is used to transcode one format of data to another to meet the need of the client
-        - html converted to wml to access website in mobile phone supporting WAP.
-        - Transcoding is used for content adaption to fit the need of the device.
-        - Content adaption is required to meet the network bandwidth needs.
-        - content adaption done through Internet Content Adaption Protocol(ICAP)
-        - *Internet Content Adaption Protocol(ICAP)*
-          - It is a protocol aimed at providing simple object based content vectoring for HTTP services
-          - So in simple terms it takes the content and converts it into a form that can be displayed on the client device.
-          - Content might be intended for desktop users. So it needs to be converted so that it can be used by mobile users.
-        - *Web Services*
-  - *Data(Tier 3)*
-    - Data tier is used to store data needed by the application and acts as a repository for both temporary and permanent data.
-    - Data can be stored in any from of datastore or database.
-    - relational databases, legacy hierarchical databases, to even simple text files.
-    - *Database middleware*
-      - we discussed how business logic should be separate from presentation. Similarly business logic should be independent of database
-      - database independence helps in the maintenance of the system better.
-      - Database middleware runs between the application program and the database. These are sometimes called database connectors.
-    - SyncML
-      - SyncML protocol is an emerging standard for synchronization of data access from different nodes.
+	- Designing a system for mobile computing means that the system will be used through any network, bearer, agent and device
+	- Why it is necessary for mobile computing to have three tier architecture ?
+		- ((60aa2f25-1ecf-4bba-abcd-69e75bc29f5f))
+	- Why is it necessary for mobile computing to use internet?
+	  collapsed:: true
+		- A system for mobile computing should be able to be accessed through any network, bearer, device and agent.
+		- To have universal access, it is desirable for the server to be connected to a ubiquitous network like the internet.
+	- *Presentation (Tier 1)*
+		- It is a user facing system of the tiers.
+		- Presentation layer is responsible for presenting information to the user
+		- It is responsible for rendering the information into a screen.
+		- Consists of agent applications and systems that run on client devices and offer all the user interfaces.
+		- The agent software in the client device can be a browser and in some cases an applet running on a browser or a virtual machine.
+		- Functions performed by agent software range from simple tasks like accessing other application through HTTP API, to sophisticated task like real time scales or inventory management.
+		- Some agents work as web scrapers.
+	- *Application(Tier 2)*
+		- Application layer is the engine of a ubiquitous application
+		- It performs business logic of processing user input, obtaining data and making decisions
+		- In some cases, this layer will do transcoding of data for appropriate rendering in the presentation layer
+		- This tier include technologies like CGI's, JAVA, JSP, .NET, PHP, etc.
+		- The application layer is presentation and database independent.
+		- In addition to business logic, the application layer performs some other functions like
+			- decisions on rendering, network management, security, datastore access, etc.
+		- Most of these functions are implemented using middleware software
+		- *Middleware framework* is defined as a layer of software in-between the operating system and the user facing software.
+		- Middlewares include a wide range of software systems like
+			- distributed objects and components
+			- message oriented communication
+			- database connectors
+			- transaction drivers
+		- Middleware can be considered as a software gateway connecting two independent open objects.
+		- Categories of middleware are
+			- *Message oriented middlewares(MOM)*
+				- Middleware framework that connects different applications through asynchronous exchange of messages
+				- it works over a networked environment without knowing the platform or processor the other application is resident on. It simple passes the messages.
+				- MOM is generally synchronous, peer-to-peer and works in a publish/subscribe  fashion.
+				- However MOM also supports request/response message passing too.
+				- MOM is appropriate for event driven applications
+			- *Transaction Processing (TP) Middlewares*
+				- TP middleware provides tools and an environment for developing transaction based distributed applications.
+				- An idea TP system would
+					- input data into the system at the point of information source
+					- output of system at the point of information sink.
+				- Functions of TP
+					- maps numerous clients requests through application service routines to different application tasks
+					- numerous management features like restarting failed processes
+					- dynamic load balancing
+					- ensuring consistency of distributed data
+				- TP optimizes the use of resources by multiplexing many client functions to much smaller set of application service routines. This helps in reducing the response time.
+				- TP is used in
+					- data management
+					- network access
+					- security systems
+					- delivery order processing
+					- airline reservations
+					- customer service
+				- TP is capable of providing services to thousands of clients in a distributed client/server environment.
+				- Java uses MVC which is an example of a TP system.
+			- *Communication Middleware*
+				- Communication Middleware is used to connect one application to another.
+				- eg : connecting one application to another using telnet
+				- they are quite useful in the telecommunication world.
+			- *Distributed Object and Components*
+				- CORBA is an example
+			- *Transcoding Middleware*
+				- Transcoding middleware is used to transcode one format of data to another to meet the need of the client
+				- html converted to wml to access website in mobile phone supporting WAP.
+				- Transcoding is used for content adaption to fit the need of the device.
+				- Content adaption is required to meet the network bandwidth needs.
+				- content adaption done through Internet Content Adaption Protocol(ICAP)
+				- *Internet Content Adaption Protocol(ICAP)*
+					- It is a protocol aimed at providing simple object based content vectoring for HTTP services
+					- So in simple terms it takes the content and converts it into a form that can be displayed on the client device.
+					- Content might be intended for desktop users. So it needs to be converted so that it can be used by mobile users.
+				- *Web Services*
+	- *Data(Tier 3)*
+		- Data tier is used to store data needed by the application and acts as a repository for both temporary and permanent data.
+		- Data can be stored in any from of datastore or database.
+		- relational databases, legacy hierarchical databases, to even simple text files.
+		- *Database middleware*
+			- we discussed how business logic should be separate from presentation. Similarly business logic should be independent of database
+			- database independence helps in the maintenance of the system better.
+			- Database middleware runs between the application program and the database. These are sometimes called database connectors.
+		- SyncML
+			- SyncML protocol is an emerging standard for synchronization of data access from different nodes.
 - *Design Considerations for Mobile Computing*
-  - Context means all the information that helps determine the state of an object.
-  - Mobile computing environment should be context independent and context sensitive
-  - Since the users and devices of a mobile communication are constantly changing,
-  - we need to adapt the content or behaviour to better suit this context.
-  - Context data helps use the apply the above.
-  - There are many ways by which content and behaviour can be adapted
-    - Content with context awareness
-    - Content switch on context
-    - Content transcoding on context
+	- Context means all the information that helps determine the state of an object.
+	- Mobile computing environment should be context independent and context sensitive
+	- Since the users and devices of a mobile communication are constantly changing,
+	- we need to adapt the content or behaviour to better suit this context.
+	- Context data helps use the apply the above.
+	- There are many ways by which content and behaviour can be adapted
+		- Content with context awareness
+		- Content switch on context
+		- Content transcoding on context
 - (everything taken from M1 textbook and miss's pdf)
