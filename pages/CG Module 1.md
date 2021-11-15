@@ -1,0 +1,77 @@
+- Syllabus
+	- Basic concepts in Computer Graphics
+	- Types of Graphic Devices
+	- Interactive Graphic inputs
+	- Raster Scan and Random Scan Displays
+- Legend
+	- ? doubt
+	- ?? need to study this; pending portions
+- ![Module 1 by Miss.pdf](../assets/Module_1_by_Miss_1636953479581_0.pdf)
+# Basic Concepts in Computer Graphics
+	- Computer graphics is the pictorial representation or manipulation of data by a computer.
+	- ## Non interactive or passive computer graphics
+		- The picture is produced by the computer and the user has no control on it.
+		- User cannot make any changes in the image
+		- Eg: screensavers
+	- ## Interactive or active computer graphics
+		- User can make changes to the produced image.
+		- Users have some control over the picture.
+		- Commands can be sent using input devices
+		- Eg: games
+	- Every image or picture is a graph
+		- different mathematical techniques are applied to manipulate some change in its properties like shape, size, motion, etc.
+	- Each picture consists of points called pixels (picture element)
+	- Pixel
+		- Full form of pixel is Picture Element
+		- Smallest element of an image on a computer display
+		- It is represented as a dot or a square on the screen
+		- Pixel can have at most one color at a time
+			- Color of a pixel is determined by the number of bytes used to represent it
+		- Screen is made up of matrix of pixels
+			- thousands and millions of pixels
+		- Each pixel has a value or a unique logical address
+	- Resolution
+		- number of pixels contained on a display monitor
+		- measures the number of pixels in a digital image or display
+		- It is defined a `width by height` or W x H,
+			- W : number of horizontal pixels
+			- H : Number of vertical pixels
+	- Aspect Ratio
+		- Ratio between width of an image and height of an image
+		- Two numbers separated by a colon, eg: 16:9
+# Input Devices
+	- Input device is any peripheral used to provide
+		- data and control signals
+		- to an information processing system
+	- List of input devices are
+		- Mouse
+		- Keyboard
+		- Trackball
+		- Space ball
+		- Joystick
+		- Digitizer
+		- Dials
+		- Button boxes
+	- ?? Explaining each input devices
+# Applications of CG
+	- used in areas such as
+		- science, engineering
+		- medicine
+		- business
+		- industry, government
+		- art, entertainment
+		- advertising
+		- education & training
+	- ?? Different fields of application
+# Video Display Devices
+	- Cathode Ray Tube
+		- A beam of electro (cathode rays) is emitted using an electron gun
+			- they pass through a focussing and deflection system
+			- which directs the beam toward specified positions
+			- on a phosphor coated screen
+		- The phosphor then emits a small spot of light at every position contacted by the electron beam
+			- The light fades very rapidly
+			- to maintain the spot of light, we repeatedly emit electrons to the same spot
+			- This type of display is called Refresh CRT
+		- ![image.png](../assets/image_1636957836100_0.png)
+		-

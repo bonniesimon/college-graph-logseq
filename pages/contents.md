@@ -26,6 +26,8 @@
 	- [[CS431 Compiler Design Lab]]
 	- [[CS451 Seminar]]
 	- [[CS405 Computer System Architecture]]
+	- [[CS403 Programming Paradigms]]
+	- [[CS401 Computer Graphics]]
 ## Semester 8
 	- [[Final Year Project]]
 ## Placement / Interview Prep
