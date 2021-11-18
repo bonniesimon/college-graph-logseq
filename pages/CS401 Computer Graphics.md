@@ -1,1 +1,2 @@
 - [[CG Module 1]]
+- [[CG Module 2]]

@@ -28,13 +28,13 @@
   collapsed:: true
 	- ![image.png](../assets/image_1636702296879_0.png)
 - ## System Attributes to Performance
-  collapsed:: true
 	- The ideal performance of a computer system depends on the machine capabilities and the program behavior.
 	- Clock Rate & CPI
 		- CPU is driven by a clock with constant cycle time t (to in greek)
 		- Inverse of the cycle time is clock rate, f = 1 / t
 		- Size of a program is given by the instruction count. Or the number of instructions to be executed in a program
 		- CPI - cycles per instructions. The cycles required to compute an instruction
+		  id:: 618e19e1-c984-43f9-a91c-5b2b06016e83
 	- Performance Factors
 		- Ic = instruction count, t = clock cycle, CPI = cycles per instruction
 		- CPU time (T) = Ic * CPI * t
@@ -58,8 +58,8 @@
 	- Throughput rate
 		- equation in pdf
 		- number of programs executed in unit time
-## Amdahl's Law for Fixed workload
-collapsed:: true
+- ## Amdahl's Law for Fixed workload
+  collapsed:: true
 	- As the number of processors increase in a parallel computer, the fixed load is distributed to more processors for parallel execution.
 	- Main objective is minimal turnaround time
 	- A program (or algorithm) which can be parallelized can be split up into two parts
@@ -69,8 +69,8 @@ collapsed:: true
 		- For a given problem size, the speedup does not increase linearly as the number of processors increases. The speedup tends to become saturated.
 	- Amdhal's law states that the performance improvement gained from using a faster mode of execution is limited by the fraction of the time the faster mode can be used.
 	- Need to learn 3 equations from this portion from the slide. Also do the problems.
-## Multiprocessor models
-collapsed:: true
+- ## Multiprocessor models
+  collapsed:: true
 	- 3 models are
 		- Uniform Memory Access model
 		- Non Uniform Memory Access model
@@ -113,8 +113,8 @@ collapsed:: true
 		- Caches form the global memory
 		- Data will eventually migrate to where it will be used
 		-
-## Distributed memory multicomputers
-collapsed:: true
+- ## Distributed memory multicomputers
+  collapsed:: true
 	- ![image.png](../assets/image_1636784624139_0.png)
 	- The system consists of multiple computers called nodes
 		- nodes are interconnected using message passing networks
@@ -124,8 +124,8 @@ collapsed:: true
 		- therefore such machines are called no remote memory access (NORMA) machines
 	- Internode communication is carried out by passing messages through a static connection network
 	-
-## Multivector and SIMD computers
-collapsed:: true
+- ## Multivector and SIMD computers
+  collapsed:: true
 	- Supercomputers are classified as
 		- Vector supercomputers
 		- SIMD supercomputers

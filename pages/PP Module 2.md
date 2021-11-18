@@ -1,0 +1,67 @@
+- ![Module 2.1 by Miss.pdf](../assets/Module_2.1_by_Miss_1637170611645_0.pdf)
+- ![Module 2.2 by Miss.pdf](../assets/Module_2.2_by_Miss_1637170616941_0.pdf)
+- Data types
+	- it is a classification that specifies what type of value a variable has
+		- and what type of mathematical relational or logical operations can be applied on it without causing error
+	- Two purpose
+		- To provide implicit context for many operations
+		- Types limit the set of operations that may be performed
+			- eg: adding a character and array
+- Type system
+	- consists of a mechanism to define types
+		- and to associate language constructs with them
+	- a set of rules for type equivalence, type compatibility, type inference
+		- Type equivalence: To check whether types of two values are equal
+		- Type compatibility: To check whether a value of the type can be used in the given context
+		- Type Inference: rules to define the type of an expression based on its constituent parts or the surrounding context
+	- Subroutines also have types in some languages
+		- when they are passed as argument, returned by functions and stored in variables.
+- Type checking
+  collapsed:: true
+	- process of ensuring that the program obeys the languages type compatibility rules
+	- A violation of the rules : type clash
+	- Strongly Typed
+		- a language that prohibits any operation to any object that is not intended to support that operation
+		- Variables are necessarily bound to a particular datatype
+		- Eg: ada, cpp
+	- Weakly Typed
+		- Variables are not of a specific data type
+		- Variables have datatypes, but are not bound to a specific data type
+		- eg: php, javascript
+	- Statically Typed
+		- A language is said to be statically typed if it is strongly typed and type checking happens at compile time
+		- variables are declared before they are used
+		- eg: java, c, cpp
+	- Dynamic Typing
+		- Type checking happens at runtime
+		- most scripting languages
+		- eg: lisp, smalltalk
+	- Polymorphism
+		- allows a single body of code to work with objects of multiple types
+- Types
+	- types can be categorized in 3 ways
+		- Denotational
+		- Constructive
+		- Abstraction based
+- Classification of Types
+	- ??
+- Type Checking
+	- In a statically typed language, every definition of an object must specify the object's type
+	- Type equivalence, type compatibility, type inference
+	- Type checking can be static or dynamic
+	- Type Equivalence
+		- Two types
+			- Name Equivalence
+				- Two types are equal if and only if they have the same name
+			- Structural Equivalence
+				- Two types are equal if and only if they have the same structure
+					- same name and same type definitions in the correct order
+			- Ada follows name equivalence while ML follows structural equivalence
+	- Type compatibility
+		- a values type must be compatible with that of the context it appears in
+		- 3 types
+			- Assignment compatibility
+			- Expression compatibility
+			- Parameter compatibility
+	- Type inference
+		-

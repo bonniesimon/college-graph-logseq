@@ -28,6 +28,7 @@
 	- [[CS405 Computer System Architecture]]
 	- [[CS403 Programming Paradigms]]
 	- [[CS401 Computer Graphics]]
+	- [[CS407 Distributed Computing]]
 ## Semester 8
 	- [[Final Year Project]]
 ## Placement / Interview Prep
